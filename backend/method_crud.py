@@ -198,38 +198,75 @@ class MethodCrud:
         self._view_products_paged(type_df, industry_name, brand_name, f"{category_label} › {type_label}")
 
     def _view_products_paged(self, df, industry_name, brand_name, category_label):
-        """Displays products sorted by rating, 50 per page. Columns: brand_name, price, rating."""
+        """Displays products sorted by rating, 50 per page. Columns: type, brand, price, rating."""
         price_col  = 'price_usd'  if 'price_usd'  in df.columns else 'price'
         rating_col = 'rating'     if 'rating'     in df.columns else 'user_rating'
         brand_col  = 'brand_name' if 'brand_name' in df.columns else 'brand'
 
         sorted_df = df.copy()
-        if(rating_col in sorted_df.columns):
-            sorted_df = sorted_df.sort_values(by=rating_col, ascending=False).reset_index(drop=True)
 
-        cols_to_show = [c for c in ["product_name", brand_col, price_col, rating_col] if c in sorted_df.columns]
+        # Round rating to 2 decimal places for readability
+        if(rating_col in sorted_df.columns):
+            sorted_df[rating_col] = sorted_df[rating_col].round(2)
+            # Sort by category, then type, then rating within each group
+            sort_cols = []
+            sort_asc  = []
+            if('category' in sorted_df.columns):
+                sort_cols.append('category')
+                sort_asc.append(True)
+            if('product_name' in sorted_df.columns):
+                sort_cols.append('product_name')
+                sort_asc.append(True)
+            sort_cols.append(rating_col)
+            sort_asc.append(False)
+            sorted_df = sorted_df.sort_values(by=sort_cols, ascending=sort_asc).reset_index(drop=True)
+
+        cols_to_show = [c for c in ['product_name', 'category', brand_col, price_col, rating_col] if c in sorted_df.columns]
         total     = len(sorted_df)
         PAGE_SIZE = 50
         page      = 0
 
+        def _print_header():
+            print("\n" + "═"*50)
+            print(f"  {industry_name.upper()} › {brand_name} › {category_label}")
+            print("═"*50)
+
+        def _print_page(start, end):
+            _print_header()
+            print(f"  Showing {start+1}–{end} of {total} products  (sorted by rating ↓)")
+            print("─"*50)
+            print(sorted_df[cols_to_show].iloc[start:end].to_string(index=False))
+            print("─"*50)
+
+        def _print_all_grouped():
+            _print_header()
+            print(f"  ALL {total} products  (grouped by type, sorted by rating ↓)")
+            print("─"*50)
+            if('product_name' in sorted_df.columns):
+                for ptype, group in sorted_df.groupby('product_name', sort=True):
+                    g = group.sort_values(by=rating_col, ascending=False)
+                    print(f"\n  ┌─ {ptype.upper()} ({len(g)} products) ─────────────────")
+                    # print header row manually for alignment
+                    header = f"  │  {'Brand':<12} {'Price (USD)':>12} {'Rating':>8}"
+                    print(header)
+                    print(f"  │  {'─'*12} {'─'*12} {'─'*8}")
+                    for _, row in g.iterrows():
+                        print(f"  │  {str(row[brand_col]):<12} ${row[price_col]:>10.2f} {row[rating_col]:>8.2f}")
+                    print(f"  └{'─'*37}")
+            else:
+                print(sorted_df[cols_to_show].to_string(index=False))
+            print()
+
         while True:
             start = page * PAGE_SIZE
             end   = min(start + PAGE_SIZE, total)
-
-            print("\n" + "═"*45)
-            print(f"  {industry_name.upper()} › {brand_name} › {category_label}")
-            print(f"  Showing {start+1}–{end} of {total} products  (sorted by rating ↓)")
-            print("═"*45)
-            print(sorted_df[cols_to_show].iloc[start:end].to_string(index=False))
-            print("─"*45)
+            _print_page(start, end)
 
             options = []
             if(end < total):
                 options.append("[N] Next 50")
             if(page > 0):
                 options.append("[P] Previous 50")
-            if(total > PAGE_SIZE):
-                options.append("[A] Show All")
             options.append("[B] Back")
 
             print("  " + "   ".join(options))
@@ -239,31 +276,6 @@ class MethodCrud:
                 page += 1
             elif(nav == "P" and page > 0):
                 page -= 1
-            elif(nav == "A" and total > PAGE_SIZE):
-                # group by product_name then sort by rating within each group
-                if('product_name' in sorted_df.columns):
-                    grouped_df = sorted_df.sort_values(
-                        by=['product_name', 'rating'],
-                        ascending=[True, False]
-                    )
-                else:
-                    grouped_df = sorted_df
-
-                print("\n" + "═"*45)
-                print(f"  ALL {total} products — {industry_name} › {brand_name} › {category_label}")
-                print(f"  (grouped by type, sorted by rating ↓)")
-                print("═"*45)
-
-                if('product_name' in grouped_df.columns):
-                    for ptype, group in grouped_df.groupby('product_name', sort=True):
-                        print(f"\n  ── {ptype} ({len(group)}) ──")
-                        print(group[cols_to_show].to_string(index=False))
-                else:
-                    print(grouped_df[cols_to_show].to_string(index=False))
-
-                print("─"*45)
-                input("\n  Press Enter to return.........")
-                break
             elif(nav == "B"):
                 break
             else:
