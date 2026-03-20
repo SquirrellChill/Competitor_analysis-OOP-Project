@@ -1,0 +1,527 @@
+product_name,industry,brand_name,price_usd,rating,reviews,category
+Fragrance Discovery Set,skincare,sephora,35.0,3.6364,11.0,Fragrance
+La Habana Eau de Parfum,skincare,sephora,195.0,4.1538,13.0,Fragrance
+Rainbow Bar Eau de Parfum,skincare,sephora,195.0,4.25,16.0,Fragrance
+Kasbah Eau de Parfum,skincare,sephora,195.0,4.4762,21.0,Fragrance
+Purple Haze Eau de Parfum,skincare,sephora,195.0,3.2308,13.0,Fragrance
+Kasbah Eau de Parfum Travel Spray,skincare,sephora,30.0,4.4762,21.0,Fragrance
+Purple Haze Eau de Parfum Travel Spray,skincare,sephora,30.0,3.2308,13.0,Fragrance
+Invisible Post Eau de Parfum,skincare,sephora,195.0,3.625,8.0,Fragrance
+Capri Eau de Parfum,skincare,sephora,195.0,3.5714,7.0,Fragrance
+Invisible Post Eau de Parfum Travel Spray,skincare,sephora,30.0,3.625,8.0,Fragrance
+Rainbow Bar Eau de Parfum Travel Spray,skincare,sephora,30.0,4.25,16.0,Fragrance
+Capri Eau de Parfum Travel Spray,skincare,sephora,30.0,3.5714,7.0,Fragrance
+L'air Barbes Eau de Parfum,skincare,sephora,195.0,3.0,4.0,Fragrance
+L'air Barbes Eau de Parfum Travel Spray,skincare,sephora,30.0,3.0,4.0,Fragrance
+AFRICAN Beauty Butter- Intensive Dry Skin Treatment,skincare,sephora,38.0,4.3256,258.0,Bath & Body
+African Beauty Butter Mini Gift Set,skincare,sephora,29.0,3.561,41.0,Bath & Body
+African Beauty Butter Collection Deluxe Tin,skincare,sephora,80.0,4.2273,22.0,Bath & Body
+Mini AFRICAN Beauty Butter- Intensive Dry Skin Treatment,skincare,sephora,12.0,4.5175,143.0,Bath & Body
+ABBOTT Sampler Set,skincare,sephora,26.0,4.8163,49.0,Fragrance
+The Cape Perfume,skincare,sephora,84.0,4.6111,18.0,Fragrance
+Crescent Beach Perfume Travel Spray,skincare,sephora,29.0,4.7778,9.0,Fragrance
+Crescent Beach Perfume,skincare,sephora,84.0,4.5882,17.0,Fragrance
+Seqouia Eau de Parfum Travel Spray,skincare,sephora,29.0,4.1667,6.0,Fragrance
+Sequoia Perfume,skincare,sephora,84.0,4.619,21.0,Fragrance
+Mojave Perfume Travel Spray,skincare,sephora,29.0,4.7143,7.0,Fragrance
+The Cape Perfume Travel Spray,skincare,sephora,29.0,3.8333,6.0,Fragrance
+Big Sky Eau de Parfum Travel Spray,skincare,sephora,28.0,4.25,4.0,Fragrance
+Big Sky Eau de Parfum,skincare,sephora,84.0,4.625,8.0,Fragrance
+Montecito Perfume Travel Spray,skincare,sephora,29.0,3.7143,7.0,Fragrance
+Montecito Perfume,skincare,sephora,84.0,4.1111,9.0,Fragrance
+Mojave Perfume,skincare,sephora,84.0,4.0909,11.0,Fragrance
+Blu Mediterraneo Mini Eau de Toilette Set,skincare,sephora,77.0,3.3333,12.0,Mini Size
+Mirto di Panarea,skincare,sephora,84.0,4.4359,39.0,Fragrance
+Arancia di Capri,skincare,sephora,84.0,3.9459,37.0,Fragrance
+Colonia,skincare,sephora,181.0,4.2125,80.0,Fragrance
+Magnolia Nobile,skincare,sephora,210.0,4.2791,43.0,Fragrance
+Yuzu Eau de Parfum,skincare,sephora,135.0,4.6667,6.0,Fragrance
+Oud Eau de Parfum,skincare,sephora,295.0,4.2632,19.0,Fragrance
+Colonia Essenza,skincare,sephora,130.0,4.5333,15.0,Fragrance
+Buongiorno Diffuser,skincare,sephora,112.0,4.625,8.0,Fragrance
+Colonia Alcohol-Free Deodorant,skincare,sephora,55.0,3.2,10.0,Bath & Body
+Colonia Pura,skincare,sephora,130.0,4.5714,7.0,Fragrance
+Arancia di Capri Candle,skincare,sephora,82.0,,,Fragrance
+Fico di Amalfi Candle,skincare,sephora,82.0,4.0,2.0,Fragrance
+Aperitivo In Terrazza Diffuser,skincare,sephora,112.0,5.0,1.0,Fragrance
+Luce di Colonia Diffuser,skincare,sephora,112.0,2.6667,3.0,Fragrance
+Baomint Deep Conditioning Treatment,skincare,sephora,39.0,4.5273,311.0,Hair
+Blue Tansy Reparative Mask,skincare,sephora,40.0,4.7581,492.0,Hair
+Baomint Leave In Conditioning Styler,skincare,sephora,26.0,4.3472,144.0,Hair
+Blue Tansy Leave in Conditioning Styler,skincare,sephora,26.0,4.5762,210.0,Hair
+Baomint Moisturizing Shampoo,skincare,sephora,24.0,4.1324,136.0,Hair
+Blue Tansy Clarifying Gel Shampoo,skincare,sephora,25.0,4.3109,193.0,Hair
+Melonberry Hair Milk Leave-In Conditioner,skincare,sephora,24.0,4.3826,1265.0,Hair
+Baomint Protect + Shine Oil Blend,skincare,sephora,24.0,4.5359,237.0,Hair
+Baomint Moisturizing Curl Defining Cream,skincare,sephora,32.0,4.5635,252.0,Hair
+Blue Tansy Treatment Serum,skincare,sephora,36.0,4.6465,215.0,Hair
+Baomint Moisturizing Curl Defining Gel,skincare,sephora,32.0,4.4188,234.0,Hair
+Blue Tansy Reparative Conditioner,skincare,sephora,25.0,4.3495,186.0,Hair
+Mini Baomint Deep Conditioning Treatment,skincare,sephora,15.0,4.2,5.0,Hair
+Mini Baomint Deluxe Travel Kit,skincare,sephora,56.0,4.7283,173.0,Hair
+Mini Baomint Moisturizing Curl Defining Gel,skincare,sephora,14.0,,,Hair
+Mini Baomint Moisturizing Curl Defining Cream,skincare,sephora,14.0,,,Hair
+Mini Baomint Leave-In Conditioning Styler,skincare,sephora,13.0,,,Hair
+Mini Baomint Moisturizing Shampoo,skincare,sephora,12.0,,,Hair
+Mini Baomint Protect + Shine Oil Blend,skincare,sephora,11.0,,,Hair
+Rose Lip Conditioner,skincare,sephora,35.0,4.26,527.0,Makeup
+Mediterranean Honeysuckle,skincare,sephora,145.0,4.2158,139.0,Fragrance
+Mediterranean Honeysuckle Eau de Parfum Travel Spray,skincare,sephora,35.0,4.2,50.0,Fragrance
+Amber Musk,skincare,sephora,145.0,4.3833,120.0,Fragrance
+Amber Musk Eau de Parfum Travel Spray,skincare,sephora,35.0,4.1875,48.0,Mini Size
+Hibiscus Palm Eau de Parfum,skincare,sephora,145.0,4.3333,60.0,Fragrance
+Ikat Jasmine,skincare,sephora,200.0,4.3385,65.0,Fragrance
+Lilac Path,skincare,sephora,145.0,4.2875,80.0,Fragrance
+Waterlily Sun,skincare,sephora,145.0,4.3529,51.0,Fragrance
+Rose De Grasse,skincare,sephora,260.0,4.5278,36.0,Fragrance
+Ikat Jasmine Travel Spray,skincare,sephora,35.0,4.0,13.0,Fragrance
+Wild Geranium Travel Spray,skincare,sephora,35.0,4.3333,21.0,Fragrance
+Tangier Vanille,skincare,sephora,145.0,3.6923,39.0,Fragrance
+Hibiscus Palm Eau de Parfum Travel Spray,skincare,sephora,35.0,4.0714,14.0,Fragrance
+Mediterranean Honeysuckle Mimosa Eau de Parfum,skincare,sephora,135.0,3.2,10.0,Fragrance
+Wild Geranium,skincare,sephora,145.0,4.6667,24.0,Fragrance
+Mini Aegea Blossom Eau de Parfum Travel Spray,skincare,sephora,35.0,3.7059,17.0,Fragrance
+Aegea Blossom Eau de Parfum,skincare,sephora,145.0,4.3529,17.0,Fragrance
+Cedar Violet Eau de Parfum Travel Spray,skincare,sephora,35.0,3.3571,14.0,Fragrance
+Perfume Sampler Discovery Set,skincare,sephora,25.0,,,Fragrance
+Cedar Violet Eau de Parfum,skincare,sephora,145.0,3.3571,14.0,Fragrance
+Mediterranean Honeysuckle Clementina,skincare,sephora,145.0,3.5,4.0,Fragrance
+Rose De Grasse Pour Filles Eau de Parfum,skincare,sephora,100.0,2.0,1.0,Fragrance
+Mediterranean Honeysuckle Mimosa Eau de Parfum Travel Spray,skincare,sephora,30.0,,,Fragrance
+GENIUS Sleeping Collagen Moisturizer,skincare,sephora,98.0,4.5413,1321.0,Skincare
+GENIUS Liquid Collagen Serum,skincare,sephora,115.0,4.0259,1159.0,Skincare
+Triple Algae Eye Renewal Balm Eye Cream,skincare,sephora,68.0,4.5306,1142.0,Skincare
+GENIUS Liquid Collagen Lip Treatment,skincare,sephora,29.0,3.8721,649.0,Skincare
+SUBLIME DEFENSE Ultra Lightweight UV Defense Fluid SPF 50,skincare,sephora,28.0,4.4134,508.0,Skincare
+GENIUS Ultimate Anti-Aging Cream,skincare,sephora,112.0,4.2525,503.0,Skincare
+GENIUS Ultimate Anti-Aging Melting Cleanser,skincare,sephora,38.0,4.0569,334.0,Skincare
+Gentle Rejuvenating Cleanser,skincare,sephora,28.0,4.2689,264.0,Skincare
+10 Day Results Kit,skincare,sephora,88.0,4.8023,258.0,Skincare
+Advanced Anti-Aging Repairing Oil,skincare,sephora,82.0,4.4531,245.0,Skincare
+Overnight Restorative Cream,skincare,sephora,94.0,4.3808,239.0,Skincare
+GENIUS Ultimate Anti-Aging Vitamin C+ Serum,skincare,sephora,118.0,3.9825,229.0,Skincare
+Regenerative Anti-Aging Moisturizer,skincare,sephora,94.0,4.2715,221.0,Skincare
+Blue Algae Vitamin C Skinclarity Brightening Serum,skincare,sephora,72.0,4.6087,207.0,Skincare
+POWER Recharging Night Pressed Serum,skincare,sephora,95.0,4.3854,205.0,Skincare
+Algae Niacinamide Moisture Veil,skincare,sephora,65.0,4.6982,169.0,Skincare
+GENIUS Liquid Skin Resurfacing 2% BHA Toner,skincare,sephora,40.0,4.7939,165.0,Skincare
+GENIUS Collagen Calming Relief,skincare,sephora,58.0,4.464,125.0,Skincare
+ALIVE Prebiotic Balancing Mask,skincare,sephora,38.0,4.3729,118.0,Skincare
+GENIUS Ultimate Anti-Aging Eye Cream,skincare,sephora,74.0,3.7759,116.0,Skincare
+Blue Algae Vitamin C Dark Spot Correcting Peel,skincare,sephora,85.0,4.213,108.0,Skincare
+AA (Alguronic Acid) Barrier Serum,skincare,sephora,85.0,3.97,100.0,Skincare
+POWER Advanced Wrinkle Fighter 360° Eye Serum,skincare,sephora,70.0,4.023,87.0,Skincare
+POWER Advanced Wrinkle Fighter Moisturizer,skincare,sephora,85.0,4.1818,77.0,Skincare
+GENIUS Liquid Collagen Hand Cream,skincare,sephora,38.0,4.175,40.0,Bath & Body
+ELEVATE Advanced Retinol Serum,skincare,sephora,98.0,4.1026,39.0,Skincare
+ELEVATE Advanced Lift Contouring Cream,skincare,sephora,96.0,4.3243,37.0,Skincare
+Mini GENIUS Liquid Collagen,skincare,sephora,25.0,3.4412,34.0,Skincare
+ELEVATE Firming & Lifting Contouring Eye Cream,skincare,sephora,72.0,3.2581,31.0,Skincare
+ALIVE Prebiotic Balancing Moisturizer SPF 15,skincare,sephora,40.0,3.2,30.0,Skincare
+ELEVATE Firming & Lifting Neck Cream,skincare,sephora,84.0,3.8889,18.0,Skincare
+Plump Pout Duo,skincare,sephora,44.0,3.0,1.0,Skincare
+Algae Peptide Regenerative Moisturizer,skincare,sephora,98.0,,,Skincare
+Liquid Gold Exfoliating Treatment with Glycolic acid,skincare,sephora,56.0,4.5093,915.0,Skincare
+Vitamin A Serum with 0.5% Retinol,skincare,sephora,65.0,4.3579,95.0,Skincare
+Vitamin B Serum with 5% Niacinamide and Peptides,skincare,sephora,65.0,4.2619,84.0,Skincare
+Balancing Cleanser,skincare,sephora,38.0,4.5455,77.0,Skincare
+Mini Liquid Gold Exfoliating Treatment with Glycolic Acid,skincare,sephora,22.0,4.0,34.0,Skincare
+Liquid Gold Firming Eye Cream,skincare,sephora,82.0,3.8824,17.0,Skincare
+Liquid Gold Midnight Reboot Serum with 14% Glycolic Acid and Tripeptide-5,skincare,sephora,105.0,5.0,16.0,Skincare
+Beauty Sleep Power Peel Age-Defying Night Peel,skincare,sephora,106.0,4.6,15.0,Skincare
+Triple Action Cleanser,skincare,sephora,38.0,4.25,12.0,Skincare
+Melt Moisturizer with Bakuchiol and Squalane,skincare,sephora,60.0,4.514,465.0,Skincare
+Wild Huckleberry 8-Acid Polishing Peel Mask,skincare,sephora,56.0,4.6801,347.0,Skincare
+Wild Nettle & Niacinamide Instant Firming Serum,skincare,sephora,58.0,4.7631,287.0,Skincare
+Line-Filling Eye Cream with Bakuchiol and Caffeine,skincare,sephora,62.0,4.3206,262.0,Skincare
+Juneberry & Collagen Hydrating Cold Cream Cleanser,skincare,sephora,39.0,4.895,238.0,Skincare
+Triple Vitamin C Brightening Bounce Cream Moisturizer,skincare,sephora,49.0,4.5422,225.0,Skincare
+Creamy Bubbling Cleanser with Vitamin C & AHAs,skincare,sephora,36.0,4.3832,167.0,Skincare
+Vitamin C & Bearberry Instant Glow Serum,skincare,sephora,59.0,4.503,167.0,Skincare
+Willow & Sweet Agave Plumping Lip Mask,skincare,sephora,28.0,4.5405,148.0,Skincare
+Pore Perfecting Liquid Exfoliator with 2% BHA + Borage,skincare,sephora,39.0,4.9231,91.0,Skincare
+Mini Melt Moisturizer with Bakuchiol and Squalane,skincare,sephora,25.0,4.5806,31.0,Skincare
+Mini Wild Huckleberry 8-Acid Polishing Peel Mask,skincare,sephora,23.0,4.85,20.0,Mini Size
+Peel and Plump Skin-Smoothing Duo,skincare,sephora,49.0,4.8889,18.0,Skincare
+CAVIAR Anti-Aging Replenishing Moisture CC Cream,skincare,sephora,30.0,4.0232,1721.0,Hair
+CAVIAR Anti-Aging Replenishing Moisture Shampoo,skincare,sephora,35.0,4.2482,963.0,Hair
+CAVIAR Anti-Aging Replenishing Moisture Conditioner,skincare,sephora,55.0,4.4528,890.0,Hair
+Caviar Anti-Aging Clinical Densifying Scalp Treatment,skincare,sephora,38.0,4.0124,242.0,Hair
+CAVIAR Anti-Aging Multiplying Volume Styling Mist,skincare,sephora,30.0,4.2685,391.0,Hair
+CAVIAR Anti-Aging Smoothing Anti-Frizz Dry Oil Mist,skincare,sephora,34.0,4.3662,213.0,Hair
+CAVIAR Anti-Aging Working Hairspray,skincare,sephora,26.0,4.4268,157.0,Hair
+CAVIAR Anti-Aging Smoothing Anti-Frizz Blowout Butter,skincare,sephora,35.0,4.1298,208.0,Hair
+CAVIAR Anti-Aging Clinical Densifying Shampoo,skincare,sephora,34.0,4.1325,166.0,Hair
+CAVIAR Anti-Aging Smoothing Anti-Frizz Nourishing Oil,skincare,sephora,38.0,4.0615,130.0,Hair
+CAVIAR Anti-Aging Clinical Densifying Styling Mousse,skincare,sephora,38.0,4.5164,122.0,Hair
+CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Heat Protection Spray,skincare,sephora,32.0,4.1513,119.0,Hair
+CAVIAR Anti-Aging Multiplying Volume Shampoo,skincare,sephora,35.0,3.9127,126.0,Hair
+CAVIAR Anti-Aging Rapid Blowout Balm,skincare,sephora,32.0,4.6927,192.0,Hair
+CAVIAR Anti-Aging Restructuring Bond Repair 3-in-1 Sealing Serum,skincare,sephora,38.0,4.0101,199.0,Hair
+CAVIAR Anti-Aging Replenishing Moisture Leave-In Smoothing Gelee,skincare,sephora,30.0,4.1863,102.0,Hair
+CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Overnight Serum,skincare,sephora,40.0,4.3761,452.0,Hair
+CAVIAR Anti-Aging Perfect Iron Spray,skincare,sephora,32.0,4.195,159.0,Hair
+CAVIAR Anti-Aging Multiplying Volume Conditioner,skincare,sephora,36.0,4.1471,102.0,Hair
+CAVIAR Anti-Aging Replenishing Moisture Masque,skincare,sephora,45.0,3.9368,95.0,Hair
+CAVIAR Anti-Aging Infinite Color Hold Dual-Use Serum,skincare,sephora,36.0,4.5957,94.0,Hair
+CAVIAR Anti-Aging Replenishing Moisture Priming Leave-In Conditioner,skincare,sephora,32.0,4.4488,205.0,Hair
+CAVIAR Anti-Aging Multiplying Volume Styling Mousse,skincare,sephora,32.0,4.2381,21.0,Hair
+Caviar Anti-Aging Smoothing Anti-Frizz Air-Dry Balm,skincare,sephora,32.0,4.1563,64.0,Hair
+CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Protein Cream,skincare,sephora,37.0,3.3333,18.0,Hair
+CAVIAR Anti-Aging Infinite Color Hold Shampoo,skincare,sephora,35.0,4.0833,36.0,Hair
+CAVIAR Anti-Aging Smoothing Anti-Frizz Shampoo,skincare,sephora,35.0,4.3879,116.0,Hair
+CAVIAR Anti-Aging Perfect Texture Spray,skincare,sephora,30.0,4.5281,89.0,Hair
+CAVIAR Anti-Aging Smoothing Anti-Frizz Conditioner,skincare,sephora,36.0,4.1518,112.0,Hair
+CAVIAR Anti-Aging Infinite Color Hold Conditioner,skincare,sephora,36.0,4.0,20.0,Hair
+Restructuring Bond Repair Masque,skincare,sephora,50.0,4.871,31.0,Hair
+Alterna Haircare Caviar Anti-Aging Clinical Densifying Shampoo,skincare,sephora,38.0,4.4203,69.0,Hair
+Renewing Exfoliating Scalp Scrub-to-Foam,skincare,sephora,48.0,4.8615,65.0,Hair
+Replenishing Moisture Jumbo Trio,skincare,sephora,100.0,3.6667,3.0,Hair
+My Hair My Canvas  Meltaway No-Rinse Micellar Cleanser,skincare,sephora,29.0,3.7903,124.0,Hair
+CAVIAR Anti-Aging Restructuring Bond Repair Conditioner,skincare,sephora,56.0,4.963,27.0,Hair
+Alterna Haircare Caviar Anti-Aging Clinical Densifying Foam Conditioner,skincare,sephora,38.0,4.5606,66.0,Hair
+MHMC New Beginnings Exfoliating Cleanser,skincare,sephora,30.0,4.189,164.0,Hair
+CAVIAR Anti-Aging Restructuring Bond Repair Shampoo,skincare,sephora,35.0,4.6286,35.0,Hair
+Renewing Scalp Leave-In Treatment with Hemp,skincare,sephora,48.0,4.8226,62.0,Hair
+Renewing Scalp Care Peppermint Leave-In Treatment,skincare,sephora,48.0,4.5938,64.0,Hair
+My Hair My Canvas Me Time Every Day Shampoo,skincare,sephora,28.0,4.225,160.0,Hair
+My Hair My Canvas  Me Time Everyday Conditioner,skincare,sephora,28.0,4.2628,156.0,Hair
+My Hair My Canvas  Cool Hydrations Nourishing Masque,skincare,sephora,35.0,4.0569,123.0,Hair
+Clinical Densifying Styling Mousse,skincare,sephora,38.0,,,Hair
+Lip Treatment Oil,skincare,sephora,20.0,4.7053,95.0,Makeup
+Skin-Enhancing Tinted Moisturizer,skincare,sephora,32.0,4.8966,58.0,Makeup
+Lash-Amplifying Volumizing & Lengthening Mascara,skincare,sephora,19.0,4.1842,38.0,Makeup
+Skin Melt Talc-Free Loose Setting Powder,skincare,sephora,22.0,4.5714,21.0,Makeup
+Light-Catching Highlighter Balm,skincare,sephora,22.0,4.75,8.0,Makeup
+Skin-Enhancing Concealer,skincare,sephora,24.0,4.6429,14.0,Makeup
+Ultra-Flex Clear Eyebrow Shaping Gel,skincare,sephora,20.0,4.8889,9.0,Makeup
+Desert Date Cream Blush & Lip Multistick,skincare,sephora,22.0,5.0,4.0,Makeup
+"The Customizable Crew Set: Highlighter, Lip Oil, and Skin Tint Set",skincare,sephora,60.0,4.5,2.0,Makeup
+Soulfood Nourishing Hair Mask,skincare,sephora,32.0,4.4028,1621.0,Hair
+Perk Up Talc-Free Dry Shampoo,skincare,sephora,28.0,4.4057,2179.0,Hair
+Dream Routine Overnight Hydrating Hair Mask,skincare,sephora,32.0,4.5027,561.0,Hair
+Mini Soulfood Nourishing Mask,skincare,sephora,18.0,4.0766,235.0,Mini Size
+The Kure Intense Bond Repair Hair Mask,skincare,sephora,40.0,4.5346,159.0,Hair
+Hydro Rush Intense Moisture Leave-In Conditioner with Hyaluronic Acid,skincare,sephora,28.0,4.6388,335.0,Hair
+Un.Done Volume and Matte Texture Spray,skincare,sephora,29.0,4.2243,749.0,Hair
+High Tide Deep Wave Hair Crimper,skincare,sephora,120.0,4.0,176.0,Hair
+The Kure Bond Repair Conditioner for Damaged Hair,skincare,sephora,28.0,4.3292,161.0,Hair
+Good Vibes Only + Hydration + Repair Hair Mask Set,skincare,sephora,39.0,5.0,17.0,Hair
+The Closer Instant Split-end Hair Repair Cream,skincare,sephora,28.0,4.3739,115.0,Hair
+Hair Blow Dryer Brush 2.0,skincare,sephora,100.0,3.28,125.0,Hair
+Bust Your Brass Cool Blonde Purple Intense Repair Hair Mask,skincare,sephora,40.0,4.5556,144.0,Hair
+Normcore Sulfate Free Shampoo,skincare,sephora,23.0,3.3309,139.0,Hair
+Flash Instant Shine Hair Gloss Mask,skincare,sephora,28.0,4.4352,108.0,Hair
+Plus Size Volume & Body Mousse,skincare,sephora,30.0,4.2588,85.0,Hair
+Normcore Hydrating Conditioner,skincare,sephora,23.0,3.6875,64.0,Hair
+Curl Corps Curl Defining Cream,skincare,sephora,28.0,4.1951,82.0,Hair
+The Wizard Detangling Hair Primer,skincare,sephora,29.0,4.3538,65.0,Hair
+Mini Un.Done Volume and Matte Texture Spray,skincare,sephora,10.0,3.9412,17.0,Mini Size
+Water Sign Hydrating Hair Oil with Hyaluronic Acid,skincare,sephora,32.0,3.8,45.0,Hair
+Perk Up Plus Extended Clean Dry Shampoo,skincare,sephora,30.0,3.8358,67.0,Hair
+Velveteen Dream Anti-Frizz Smoothing Conditioner,skincare,sephora,28.0,3.62,50.0,Hair
+Hydro Rush Intense Moisture Shampoo with Hyaluronic Acid,skincare,sephora,26.0,3.8838,198.0,Hair
+Polished Perfection Thermal Straightening Brush 2.0,skincare,sephora,98.0,3.9502,201.0,Hair
+Curl Corps Curl Enhancing Hair Gel,skincare,sephora,28.0,4.2192,73.0,Hair
+Top Gloss Hair Shine Spray,skincare,sephora,29.0,4.16,25.0,Hair
+The Kure Multi-Task Repair Treatment,skincare,sephora,30.0,4.6923,52.0,Hair
+Hydro Rush Intense Moisture Conditioner with Hyaluronic Acid,skincare,sephora,26.0,3.9158,190.0,Hair
+Vault Sulfate Free Shampoo for Color-Treated Hair,skincare,sephora,23.0,3.5507,69.0,Hair
+Brooklyn Bombshell Blowout Spray,skincare,sephora,28.0,3.8214,28.0,Hair
+Bust Your Brass Blonde Purple Conditioner,skincare,sephora,28.0,4.2941,51.0,Hair
+The Kure Bond Repair Shampoo for Damaged Hair,skincare,sephora,28.0,4.2951,61.0,Hair
+Hydro Rush and Dream Routine Hair Hydration Set,skincare,sephora,58.0,3.625,16.0,Hair
+Vault Conditioner for Color-Treated Hair,skincare,sephora,23.0,3.6429,42.0,Hair
+Fadeblock Pre-Shampoo Color Seal,skincare,sephora,26.0,4.3033,122.0,Hair
+Power Hour Curl Refreshing Spray,skincare,sephora,28.0,3.4,10.0,Hair
+Reset Exfoliating Jelly Scalp Scrub,skincare,sephora,28.0,4.4,10.0,Hair
+Double Agent 2-in-1 Straightening Blow Dryer Brush,skincare,sephora,120.0,4.3103,116.0,Hair
+3D Volume and Thickening Shampoo,skincare,sephora,26.0,3.4615,13.0,Hair
+3D Daily Leave-In Hair Thickening Treatment,skincare,sephora,38.0,4.6667,3.0,Hair
+High Tide Deep Waver Jumbo,skincare,sephora,120.0,4.4318,44.0,Hair
+Mini Perk Up Talc-Free Dry Shampoo,skincare,sephora,15.0,3.4286,7.0,Hair
+Mini Perk Up Plus Extended Clean Dry Shampoo,skincare,sephora,16.0,4.375,8.0,Hair
+Illuminati Diamond Ceramic Flat Iron,skincare,sephora,120.0,3.5172,29.0,Hair
+Bust Your Brass Blonde Purple Shampoo,skincare,sephora,28.0,4.1053,19.0,Hair
+The Conductor 1 Inch Precision Germanium Flat Iron,skincare,sephora,150.0,3.0526,38.0,Hair
+The CEO 360° Lightweight Powerhouse Hair Dryer,skincare,sephora,200.0,4.3214,28.0,Hair
+3D Volume and Thickening Conditioner,skincare,sephora,40.0,2.3333,9.0,Hair
+Brow Wiz Ultra-Slim Precision Brow Pencil,skincare,sephora,25.0,4.4056,15885.0,Makeup
+"DIPBROW Waterproof, Smudge Proof Brow Pomade",skincare,sephora,21.0,4.6701,11158.0,Makeup
+Eye Shadow Singles,skincare,sephora,12.0,4.4696,790.0,Makeup
+Liquid Lipstick,skincare,sephora,20.0,3.8268,4238.0,Makeup
+Modern Renaissance Eye Shadow Palette,skincare,sephora,45.0,4.7931,9133.0,Makeup
+Soft Glam Eyeshadow Palette,skincare,sephora,45.0,4.7068,2858.0,Makeup
+Contour Kit,skincare,sephora,40.0,4.0975,2399.0,Makeup
+Brow Definer 3-in-1 Triangle Tip,skincare,sephora,26.0,4.0746,4127.0,Makeup
+Lip Gloss,skincare,sephora,16.0,4.4551,1672.0,Makeup
+Sun Dipped Glow Kit,skincare,sephora,40.0,4.7197,2176.0,Makeup
+Strong Hold Clear Brow Gel,skincare,sephora,22.0,4.4206,4826.0,Makeup
+Ombre Effect Long Wearing Brow Powder Duo,skincare,sephora,23.0,4.695,5086.0,Makeup
+Brow Freeze Extreme Hold Laminated-Look Sculpting Wax,skincare,sephora,23.0,3.9071,2293.0,Makeup
+Brush 12 Precision Brow Brush for Pomades & Gels,skincare,sephora,18.0,4.7427,1551.0,Makeup
+Sugar Glow Kit,skincare,sephora,40.0,4.6467,917.0,Makeup
+Mini Strong Hold Clear Brow Gel,skincare,sephora,9.0,4.1889,90.0,Makeup
+Brush 7B Precision Brow Brush for Powders,skincare,sephora,18.0,4.6818,1122.0,Makeup
+Stick Foundation,skincare,sephora,25.0,3.4315,1868.0,Makeup
+Norvina False Lashes,skincare,sephora,12.0,4.259,749.0,Makeup
+Tinted Brow Gel,skincare,sephora,22.0,4.1864,2640.0,Makeup
+DIPBROW Gel,skincare,sephora,20.0,3.7853,1076.0,Makeup
+Matte & Satin Velvet Lipstick,skincare,sephora,23.0,4.6062,1427.0,Makeup
+Blush Trio,skincare,sephora,30.0,4.6617,470.0,Makeup
+Pro Pencil,skincare,sephora,18.0,4.0611,360.0,Makeup
+DIPBROW Gel - Mini,skincare,sephora,9.0,3.3403,573.0,Makeup
+Luminous Foundation,skincare,sephora,38.0,4.1304,1902.0,Makeup
+Perfect Brow Pencil,skincare,sephora,23.0,4.4411,2156.0,Makeup
+Lip Liner,skincare,sephora,18.0,4.6577,1335.0,Makeup
+Norvina Pro Pigment Palette Vol. 3 for Face & Body,skincare,sephora,60.0,4.601,193.0,Makeup
+Superfine Micro-Stroking Detail Brow Pen,skincare,sephora,22.0,3.9654,866.0,Makeup
+Dewy Set Setting Spray,skincare,sephora,26.0,4.2373,316.0,Makeup
+Norvina Pro Pigment Palette Vol. 1 for Face & Body,skincare,sephora,60.0,4.7151,179.0,Makeup
+Mini Soft Glam II Eye Shadow Palette,skincare,sephora,29.0,4.3553,76.0,Makeup
+Brush #14,skincare,sephora,18.0,4.3528,326.0,Makeup
+Powder Bronzer,skincare,sephora,28.0,4.5012,433.0,Makeup
+A23 Pro Brush – Large Tapered Blending Brush,skincare,sephora,25.0,4.0303,330.0,Makeup
+Stick Cream Blush,skincare,sephora,32.0,4.6228,729.0,Makeup
+Norvina Pro Pigment Palette Vol. 2 for Face & Body,skincare,sephora,60.0,4.5,116.0,Makeup
+Norvina Pro Pigment Palette Vol. 4 for Face & Body,skincare,sephora,60.0,4.5069,144.0,Makeup
+Magic Touch Concealer,skincare,sephora,29.0,4.551,2717.0,Makeup
+Highlighting Duo Pencil,skincare,sephora,23.0,4.4611,501.0,Makeup
+Cream Bronzer,skincare,sephora,35.0,4.5417,707.0,Makeup
+Norvina Pro Pigment Palette Vol. 5 for Face & Body,skincare,sephora,60.0,4.8206,457.0,Makeup
+Contour & Highlight Stick,skincare,sephora,25.0,3.8262,351.0,Makeup
+Classic Stencils,skincare,sephora,20.0,3.4681,658.0,Tools & Brushes
+Lip Primer,skincare,sephora,16.0,4.1481,270.0,Makeup
+Norvina Mini Pro Pigment Palette Vol. 2 for Face & Body,skincare,sephora,29.0,4.3269,364.0,Makeup
+Waterproof Crème Color,skincare,sephora,18.0,3.4277,346.0,Makeup
+Tweezers,skincare,sephora,28.0,4.4991,527.0,Tools & Brushes
+Brow Freeze Applicator,skincare,sephora,17.0,4.2,290.0,Makeup
+Insta Brow Set,skincare,sephora,25.0,3.8846,26.0,Makeup
+Norvina Mini Pro Pigment Palette Vol. 3 for Face & Body,skincare,sephora,29.0,4.4737,114.0,Mini Size
+Loose Setting Powder,skincare,sephora,38.0,4.534,824.0,Makeup
+Dress,Fashion,Adidas,40.0,1.0431592108361825,,Men's Fashion
+Shoes,Fashion,H&M,82.0,4.026416271141911,,Women's Fashion
+Dress,Fashion,Adidas,44.0,3.337937559377053,,Women's Fashion
+Shoes,Fashion,Zara,23.0,1.0495229563128543,,Men's Fashion
+T-shirt,Fashion,Adidas,79.0,4.302773408398684,,Men's Fashion
+Dress,Fashion,Adidas,47.0,1.3795657395330458,,Men's Fashion
+Sweater,Fashion,Zara,64.0,4.36030328941572,,Kids' Fashion
+Sweater,Fashion,H&M,53.0,4.466181876278437,,Men's Fashion
+T-shirt,Fashion,Zara,55.0,4.093234402033421,,Kids' Fashion
+T-shirt,Fashion,Adidas,51.0,1.1609879573062742,,Men's Fashion
+Sweater,Fashion,Gucci,91.0,2.699735537578599,,Kids' Fashion
+Dress,Fashion,Zara,34.0,2.921004203947349,,Women's Fashion
+Shoes,Fashion,Zara,54.0,3.670412239336502,,Men's Fashion
+Dress,Fashion,Adidas,27.0,1.4227161428043575,,Women's Fashion
+Dress,Fashion,Gucci,75.0,1.4806321322978917,,Women's Fashion
+Shoes,Fashion,Gucci,54.0,3.278340556246379,,Women's Fashion
+Dress,Fashion,Gucci,53.0,3.7852452454057937,,Men's Fashion
+Sweater,Fashion,H&M,38.0,1.020492671359242,,Kids' Fashion
+Dress,Fashion,Gucci,21.0,4.748169005039641,,Women's Fashion
+T-shirt,Fashion,Adidas,72.0,3.3017434083754096,,Kids' Fashion
+Shoes,Fashion,Zara,32.0,2.822802859802248,,Women's Fashion
+Shoes,Fashion,Gucci,85.0,4.9409852209868586,,Women's Fashion
+Sweater,Fashion,Nike,99.0,3.110113572581459,,Kids' Fashion
+T-shirt,Fashion,Nike,78.0,3.4472894702794954,,Kids' Fashion
+Dress,Fashion,H&M,74.0,1.0149961280920143,,Kids' Fashion
+Sweater,Fashion,Zara,48.0,4.94766478278459,,Kids' Fashion
+T-shirt,Fashion,Nike,76.0,2.663067923739062,,Kids' Fashion
+Dress,Fashion,Zara,26.0,2.4356113364040395,,Women's Fashion
+Shoes,Fashion,Zara,43.0,1.6719588858059065,,Kids' Fashion
+T-shirt,Fashion,Adidas,39.0,3.601868546646005,,Men's Fashion
+Dress,Fashion,Zara,38.0,2.82786983124548,,Men's Fashion
+T-shirt,Fashion,Gucci,10.0,1.836963965888568,,Kids' Fashion
+Sweater,Fashion,Gucci,52.0,3.01224078565306,,Kids' Fashion
+T-shirt,Fashion,H&M,38.0,3.0832859328181086,,Women's Fashion
+Dress,Fashion,Nike,59.0,3.964195137772806,,Kids' Fashion
+T-shirt,Fashion,Nike,16.0,1.2923199695786125,,Men's Fashion
+Shoes,Fashion,H&M,33.0,2.450522629395141,,Men's Fashion
+Sweater,Fashion,Adidas,76.0,2.820647079283965,,Kids' Fashion
+Dress,Fashion,Nike,53.0,2.251328486675961,,Women's Fashion
+Sweater,Fashion,Adidas,52.0,3.613136293174617,,Women's Fashion
+Shoes,Fashion,Adidas,61.0,1.6845413743576394,,Women's Fashion
+Dress,Fashion,Nike,93.0,3.158493604214389,,Kids' Fashion
+Shoes,Fashion,H&M,24.0,1.590713070216225,,Kids' Fashion
+Shoes,Fashion,Adidas,25.0,1.042408820147689,,Women's Fashion
+T-shirt,Fashion,Nike,66.0,2.063108734779856,,Men's Fashion
+Shoes,Fashion,Gucci,72.0,1.7792107858467734,,Kids' Fashion
+Shoes,Fashion,H&M,33.0,3.045016002595004,,Kids' Fashion
+Sweater,Fashion,H&M,59.0,4.550917310052925,,Kids' Fashion
+T-shirt,Fashion,Gucci,76.0,4.3049362401792095,,Women's Fashion
+Sweater,Fashion,Gucci,74.0,3.666667399691832,,Women's Fashion
+Dress,Fashion,Gucci,36.0,2.538600852160797,,Women's Fashion
+Sweater,Fashion,Adidas,35.0,4.864999297666657,,Women's Fashion
+T-shirt,Fashion,H&M,51.0,2.7936258074198936,,Women's Fashion
+T-shirt,Fashion,Gucci,34.0,2.9239820574485926,,Men's Fashion
+Dress,Fashion,Zara,68.0,2.8808081878968665,,Women's Fashion
+Dress,Fashion,H&M,86.0,2.889443699732862,,Women's Fashion
+Sweater,Fashion,H&M,90.0,2.2282631651177525,,Kids' Fashion
+T-shirt,Fashion,Nike,76.0,1.2972571933246568,,Men's Fashion
+T-shirt,Fashion,Nike,11.0,1.3334220867175706,,Men's Fashion
+T-shirt,Fashion,Nike,66.0,2.403440001805281,,Women's Fashion
+Dress,Fashion,H&M,31.0,4.612706002521094,,Kids' Fashion
+Shoes,Fashion,Nike,49.0,1.421790366569129,,Women's Fashion
+Sweater,Fashion,Adidas,42.0,2.5601740446118324,,Women's Fashion
+Shoes,Fashion,Nike,89.0,1.107632847390418,,Women's Fashion
+Sweater,Fashion,Zara,50.0,3.276221602515569,,Men's Fashion
+Shoes,Fashion,Nike,41.0,4.126941613678208,,Men's Fashion
+Dress,Fashion,Nike,61.0,2.5578921317942567,,Kids' Fashion
+Dress,Fashion,Gucci,66.0,3.896436962470069,,Men's Fashion
+Shoes,Fashion,Nike,70.0,4.928128215414036,,Men's Fashion
+Shoes,Fashion,Zara,21.0,3.941875648194909,,Women's Fashion
+Shoes,Fashion,Gucci,58.0,1.971525134654164,,Women's Fashion
+Dress,Fashion,Gucci,30.0,4.655251630403741,,Women's Fashion
+Sweater,Fashion,Gucci,61.0,4.277089915641023,,Kids' Fashion
+Shoes,Fashion,Nike,93.0,4.280090724853463,,Kids' Fashion
+Shoes,Fashion,Adidas,84.0,1.83719942156349,,Kids' Fashion
+Sweater,Fashion,Gucci,19.0,4.211889573000041,,Kids' Fashion
+Sweater,Fashion,Zara,23.0,3.3213469284575607,,Men's Fashion
+Sweater,Fashion,Gucci,13.0,4.278042968142891,,Men's Fashion
+Sweater,Fashion,Gucci,33.0,4.665058098805442,,Women's Fashion
+Shoes,Fashion,Zara,55.0,2.3936845906950563,,Women's Fashion
+T-shirt,Fashion,Zara,60.0,1.1884917976998357,,Men's Fashion
+Shoes,Fashion,H&M,37.0,1.457139593656438,,Men's Fashion
+Dress,Fashion,Adidas,64.0,2.8878066008190664,,Kids' Fashion
+Shoes,Fashion,Adidas,60.0,3.114797145238716,,Women's Fashion
+Dress,Fashion,Zara,75.0,3.992174604280839,,Kids' Fashion
+Dress,Fashion,Adidas,71.0,3.5173157730835607,,Men's Fashion
+T-shirt,Fashion,H&M,12.0,2.5073106927358912,,Men's Fashion
+T-shirt,Fashion,Gucci,96.0,1.6339895968292044,,Men's Fashion
+Sweater,Fashion,H&M,36.0,4.425129581852593,,Women's Fashion
+Sweater,Fashion,Nike,65.0,2.6473934151433265,,Women's Fashion
+Sweater,Fashion,H&M,62.0,1.0908131501294354,,Men's Fashion
+Sweater,Fashion,H&M,56.0,4.139373022505058,,Kids' Fashion
+T-shirt,Fashion,Nike,55.0,4.851703509210904,,Kids' Fashion
+Shoes,Fashion,Zara,47.0,4.86740352988641,,Women's Fashion
+T-shirt,Fashion,H&M,61.0,2.3104939634166746,,Women's Fashion
+T-shirt,Fashion,Zara,85.0,2.1043220072345936,,Women's Fashion
+Shoes,Fashion,Nike,81.0,1.0219724847287694,,Women's Fashion
+T-shirt,Fashion,H&M,50.0,3.3774933674823044,,Men's Fashion
+Sweater,Fashion,Adidas,10.0,2.997701328475636,,Women's Fashion
+Shoes,Fashion,H&M,28.0,1.6645424017858694,,Kids' Fashion
+Sweater,Fashion,Zara,60.0,3.6336515298115786,,Women's Fashion
+Dress,Fashion,Adidas,14.0,3.654703012504208,,Kids' Fashion
+Shoes,Fashion,Zara,45.0,1.0176547429590834,,Men's Fashion
+Dress,Fashion,Gucci,90.0,3.3205086094093903,,Kids' Fashion
+Dress,Fashion,H&M,23.0,1.811578260875896,,Women's Fashion
+Sweater,Fashion,Gucci,45.0,3.540081866561004,,Women's Fashion
+Shoes,Fashion,Zara,40.0,2.022643002946769,,Kids' Fashion
+Shoes,Fashion,Nike,38.0,4.4039323943697415,,Men's Fashion
+Shoes,Fashion,Gucci,81.0,4.922934883340847,,Women's Fashion
+Shoes,Fashion,Adidas,57.0,1.000967235428064,,Kids' Fashion
+T-shirt,Fashion,Zara,60.0,4.821956688936054,,Kids' Fashion
+Shoes,Fashion,Adidas,53.0,3.4663879810046567,,Women's Fashion
+Shoes,Fashion,Gucci,48.0,2.582393026142008,,Kids' Fashion
+Shoes,Fashion,Adidas,82.0,2.716311659141037,,Women's Fashion
+T-shirt,Fashion,Nike,43.0,1.1973307228303791,,Women's Fashion
+Shoes,Fashion,Adidas,77.0,2.352064140181953,,Men's Fashion
+Shoes,Fashion,Nike,31.0,1.946292675520497,,Kids' Fashion
+Dress,Fashion,Zara,11.0,2.3012246310106845,,Men's Fashion
+T-shirt,Fashion,Gucci,48.0,2.433795361947496,,Women's Fashion
+T-shirt,Fashion,Adidas,21.0,1.1541873635251334,,Women's Fashion
+Dress,Fashion,Adidas,67.0,3.981751297528464,,Women's Fashion
+Shoes,Fashion,Adidas,88.0,2.923330927137081,,Men's Fashion
+Shoes,Fashion,Gucci,35.0,2.983802720525209,,Women's Fashion
+Sweater,Fashion,Adidas,67.0,4.735471556646834,,Women's Fashion
+T-shirt,Fashion,Nike,48.0,2.9816414902965587,,Women's Fashion
+Dress,Fashion,Nike,93.0,4.268027667457275,,Women's Fashion
+T-shirt,Fashion,Nike,68.0,2.6365948985682017,,Men's Fashion
+Sweater,Fashion,Adidas,96.0,4.743823985146882,,Kids' Fashion
+Shoes,Fashion,Zara,43.0,4.478061369681752,,Kids' Fashion
+Sweater,Fashion,Gucci,69.0,4.456580598642312,,Women's Fashion
+Shoes,Fashion,Zara,98.0,1.0894623247655315,,Men's Fashion
+Sweater,Fashion,Gucci,20.0,3.46519259419596,,Men's Fashion
+Dress,Fashion,Nike,21.0,3.1017985541636333,,Kids' Fashion
+Dress,Fashion,Adidas,55.0,1.913270934210341,,Men's Fashion
+Dress,Fashion,H&M,91.0,1.9981481322231769,,Kids' Fashion
+Sweater,Fashion,Nike,12.0,4.567658316917139,,Kids' Fashion
+Shoes,Fashion,Adidas,53.0,1.0283230598341992,,Kids' Fashion
+T-shirt,Fashion,Zara,43.0,2.366447234139604,,Kids' Fashion
+Shoes,Fashion,H&M,80.0,4.829054628124489,,Kids' Fashion
+Sweater,Fashion,Zara,67.0,3.4485275944733207,,Women's Fashion
+Sweater,Fashion,Gucci,34.0,1.5653542085362844,,Men's Fashion
+Shoes,Fashion,Nike,44.0,4.359929898806648,,Men's Fashion
+Sweater,Fashion,Zara,32.0,4.0330690744184015,,Kids' Fashion
+T-shirt,Fashion,Gucci,95.0,3.23067766700609,,Kids' Fashion
+Sweater,Fashion,Zara,87.0,3.961569667170701,,Kids' Fashion
+T-shirt,Fashion,H&M,60.0,2.936956138973573,,Women's Fashion
+Sweater,Fashion,Adidas,92.0,3.792556244059596,,Women's Fashion
+Shoes,Fashion,Zara,60.0,3.3448666838230343,,Kids' Fashion
+T-shirt,Fashion,Zara,67.0,3.0321248414792685,,Men's Fashion
+T-shirt,Fashion,Zara,15.0,4.9806556343987305,,Women's Fashion
+Sweater,Fashion,H&M,45.0,4.1244272181603385,,Men's Fashion
+Sweater,Fashion,Nike,40.0,3.4955016049008285,,Men's Fashion
+T-shirt,Fashion,Zara,81.0,1.8932431699654888,,Kids' Fashion
+T-shirt,Fashion,H&M,73.0,2.9765631054892503,,Men's Fashion
+Sweater,Fashion,Gucci,53.0,2.7895407951799887,,Kids' Fashion
+Dress,Fashion,H&M,30.0,1.0286698782988175,,Women's Fashion
+T-shirt,Fashion,Adidas,71.0,3.4395524353488987,,Women's Fashion
+Dress,Fashion,Adidas,98.0,1.793905201234702,,Women's Fashion
+T-shirt,Fashion,Adidas,49.0,3.623237714218981,,Men's Fashion
+Shoes,Fashion,Gucci,57.0,3.8824504946813096,,Kids' Fashion
+Sweater,Fashion,Gucci,98.0,1.438125731490036,,Women's Fashion
+Sweater,Fashion,Gucci,69.0,3.077033065769013,,Men's Fashion
+Dress,Fashion,H&M,97.0,1.968835967065772,,Women's Fashion
+T-shirt,Fashion,H&M,42.0,4.505382327331914,,Kids' Fashion
+T-shirt,Fashion,Adidas,49.0,2.8591785457881453,,Men's Fashion
+Dress,Fashion,Adidas,36.0,1.1053187388647334,,Kids' Fashion
+T-shirt,Fashion,Adidas,88.0,1.7486279574238806,,Women's Fashion
+Dress,Fashion,Nike,61.0,1.6351942155874275,,Men's Fashion
+Sweater,Fashion,H&M,16.0,2.431736481815157,,Men's Fashion
+Dress,Fashion,Adidas,20.0,4.144274439239306,,Kids' Fashion
+Shoes,Fashion,H&M,15.0,1.967415572178569,,Men's Fashion
+Shoes,Fashion,Adidas,65.0,1.8233129054424029,,Kids' Fashion
+Shoes,Fashion,Zara,82.0,4.592905503612744,,Men's Fashion
+Dress,Fashion,Zara,33.0,4.738404627787549,,Women's Fashion
+Shoes,Fashion,Nike,39.0,4.706320333423921,,Kids' Fashion
+Sweater,Fashion,H&M,55.0,1.6990521973140904,,Kids' Fashion
+Shoes,Fashion,Zara,50.0,1.8145301271666143,,Women's Fashion
+Shoes,Fashion,Zara,44.0,1.7182978589840951,,Men's Fashion
+Shoes,Fashion,Adidas,58.0,3.6620106291965024,,Men's Fashion
+Shoes,Fashion,Adidas,47.0,2.146848905757285,,Kids' Fashion
+Shoes,Fashion,Gucci,93.0,3.956210591357851,,Kids' Fashion
+Dress,Fashion,H&M,10.0,2.2345268528513578,,Men's Fashion
+Dress,Fashion,H&M,52.0,4.128792274336508,,Men's Fashion
+Shoes,Fashion,H&M,79.0,1.0593185895156374,,Men's Fashion
+Sweater,Fashion,Zara,85.0,3.474621900383424,,Women's Fashion
+Dress,Fashion,H&M,15.0,2.333669709673072,,Women's Fashion
+Shoes,Fashion,Zara,72.0,2.2601921989303704,,Women's Fashion
+Sweater,Fashion,Zara,81.0,3.616173282778204,,Kids' Fashion
+Dress,Fashion,H&M,21.0,2.7725214471034425,,Women's Fashion
+Dress,Fashion,H&M,25.0,1.659000334748932,,Men's Fashion
+T-shirt,Fashion,Zara,98.0,4.23682985311631,,Kids' Fashion
+T-shirt,Fashion,H&M,81.0,2.550519354071389,,Kids' Fashion
+Shoes,Fashion,Nike,82.0,3.481409233178037,,Women's Fashion
+Dress,Fashion,Gucci,14.0,3.563482805805457,,Women's Fashion
+Shoes,Fashion,Nike,27.0,2.504419165241355,,Men's Fashion
+Dress,Fashion,Adidas,59.0,4.154888891923636,,Kids' Fashion
+Dress,Fashion,Zara,49.0,2.9810815810545708,,Men's Fashion
+Dress,Fashion,Gucci,55.0,3.190616883631264,,Women's Fashion
+T-shirt,Fashion,H&M,60.0,2.7467303554625904,,Kids' Fashion
+Shoes,Fashion,H&M,100.0,4.743391172218395,,Kids' Fashion
+Sweater,Fashion,Adidas,60.0,4.213088306604582,,Kids' Fashion
+Dress,Fashion,Nike,95.0,2.311251112941413,,Kids' Fashion
+Dress,Fashion,Nike,29.0,1.7646092540562788,,Men's Fashion
+Dress,Fashion,Adidas,18.0,1.6572669608916375,,Women's Fashion
+Dress,Fashion,H&M,49.0,1.8898813636690384,,Kids' Fashion
+Shoes,Fashion,Adidas,11.0,2.191241877131676,,Kids' Fashion
+Dress,Fashion,Gucci,19.0,2.129731798791968,,Kids' Fashion
+Sweater,Fashion,H&M,80.0,4.179828150021965,,Men's Fashion
+T-shirt,Fashion,Zara,23.0,3.814152153793728,,Men's Fashion
+Sweater,Fashion,Nike,80.0,3.704188789710081,,Women's Fashion
+T-shirt,Fashion,H&M,13.0,3.2360642783823703,,Kids' Fashion
+T-shirt,Fashion,Zara,62.0,4.537102678729776,,Kids' Fashion
+Sweater,Fashion,Nike,38.0,2.108827714388503,,Men's Fashion
+Sweater,Fashion,Adidas,18.0,2.805553333530071,,Kids' Fashion
+Sweater,Fashion,Zara,13.0,4.883941461573281,,Men's Fashion
+Dress,Fashion,H&M,64.0,4.818010098109168,,Women's Fashion
+T-shirt,Fashion,Nike,63.0,3.075503825550362,,Men's Fashion
+Sweater,Fashion,Nike,96.0,2.7696609053376635,,Men's Fashion
+Dress,Fashion,H&M,89.0,4.092572014583608,,Women's Fashion
+Dress,Fashion,H&M,56.0,2.424542624742448,,Kids' Fashion
+T-shirt,Fashion,H&M,25.0,4.10023032339017,,Women's Fashion
+Sweater,Fashion,Gucci,14.0,1.8779895082592104,,Kids' Fashion
+Shoes,Fashion,Zara,14.0,1.416317140810032,,Women's Fashion
+Shoes,Fashion,Gucci,21.0,2.9546026555101785,,Kids' Fashion
+Shoes,Fashion,Adidas,57.0,4.923508936133672,,Kids' Fashion
+kim,skincare,heng,10.0,10.0,23.0,sunscreen

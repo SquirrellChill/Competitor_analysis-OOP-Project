@@ -1,0 +1,301 @@
+industry,restaurant_type,menu_item_name,observed_market_price,category
+Food,Casual Dining,ABC Special,12.01,Desserts,10.0
+Food,Fine Dining,ABC Special,21.12,Desserts,7.0
+Food,Fine Dining,ABC Special,19.49,Desserts,3.0
+Food,Street Food,ABC Special,8.24,Desserts,82.0
+Food,Street Food,ABC Special,5.73,Desserts,55.0
+Food,Fine Dining,ABC Special,25.86,Desserts,5.0
+Food,Food Court,Air Mata Kucing,6.23,Drinks,19.0
+Food,Fine Dining,Air Mata Kucing,19.55,Drinks,4.0
+Food,Fine Dining,Air Mata Kucing,13.78,Drinks,3.0
+Food,Food Court,Air Mata Kucing,3.67,Drinks,14.0
+Food,Street Food,Air Mata Kucing,5.27,Drinks,100.0
+Food,Street Food,Air Mata Kucing,4.22,Drinks,87.0
+Food,Street Food,Ang Ku Kueh,3.15,Desserts,42.0
+Food,Street Food,Ang Ku Kueh,3.27,Desserts,31.0
+Food,Food Court,Ang Ku Kueh,6.16,Desserts,30.0
+Food,Casual Dining,Ang Ku Kueh,6.3,Desserts,23.0
+Food,Fast Food,Appam,8.46,Bread & Rice,17.0
+Food,Casual Dining,Appam,19.44,Bread & Rice,17.0
+Food,Fine Dining,Appam,21.71,Bread & Rice,5.0
+Food,Fine Dining,Appam,23.96,Bread & Rice,8.0
+Food,Casual Dining,Appam,9.26,Bread & Rice,7.0
+Food,Fine Dining,Appam,13.13,Bread & Rice,3.0
+Food,Fast Food,Ayam Percik,31.62,Main Course,53.0
+Food,Casual Dining,Ayam Pongteh,36.03,Main Course,16.0
+Food,Casual Dining,Ayam Pongteh,34.62,Main Course,50.0
+Food,Fast Food,Ayam Pongteh,21.09,Main Course,25.0
+Food,Food Court,Bak Chang,9.73,Rice & Noodles,33.0
+Food,Food Court,Bak Chang,9.61,Rice & Noodles,31.0
+Food,Food Court,Bak Chang,8.17,Rice & Noodles,26.0
+Food,Food Court,Bak Chang,8.68,Rice & Noodles,40.0
+Food,Fast Food,Bak Chang,7.96,Rice & Noodles,13.0
+Food,Fast Food,Bak Kwa,21.61,Snacks,13.0
+Food,Street Food,Bak Kwa,11.8,Snacks,55.0
+Food,Casual Dining,Bak Kwa,20.15,Snacks,9.0
+Food,Casual Dining,Bak Kwa,38.44,Snacks,21.0
+Food,Street Food,Bak Kwa,17.03,Snacks,30.0
+Food,Food Court,Bak Kwa,20.46,Snacks,20.0
+Food,Fine Dining,Bambangan,16.77,Condiments,14.0
+Food,Fine Dining,Bambangan,16.17,Condiments,3.0
+Food,Casual Dining,Bambangan,8.87,Condiments,8.0
+Food,Casual Dining,Bambangan,14.89,Condiments,11.0
+Food,Street Food,Bambangan,5.41,Condiments,100.0
+Food,Casual Dining,Bambangan,14.45,Condiments,17.0
+Food,Fine Dining,Banana Leaf Rice,51.77,Rice & Noodles,9.0
+Food,Street Food,Banana Leaf Rice,9.91,Rice & Noodles,63.0
+Food,Fine Dining,Banana Leaf Rice,49.33,Rice & Noodles,7.0
+Food,Fast Food,Banana Leaf Rice,17.77,Rice & Noodles,11.0
+Food,Food Court,Banana Leaf Rice,13.25,Rice & Noodles,69.0
+Food,Street Food,Barley Water,1.86,Drinks,25.0
+Food,Food Court,Barley Water,6.27,Drinks,37.0
+Food,Fine Dining,Barley Water,13.94,Drinks,5.0
+Food,Food Court,Barley Water,5.46,Drinks,26.0
+Food,Street Food,Beef Rendang,19.8,Main Course,100.0
+Food,Food Court,Beef Steak,44.2,Main Course,100.0
+Food,Fine Dining,Braised Duck,73.73,Main Course,3.0
+Food,Street Food,Braised Duck,14.36,Main Course,100.0
+Food,Fine Dining,Braised Duck,47.48,Main Course,4.0
+Food,Street Food,Braised Duck,17.31,Main Course,100.0
+Food,Casual Dining,Braised Duck,45.75,Main Course,31.0
+Food,Food Court,Chai Tow Kway,8.23,Breakfast,21.0
+Food,Fine Dining,Chai Tow Kway,19.63,Breakfast,3.0
+Food,Casual Dining,Chai Tow Kway,20.23,Breakfast,16.0
+Food,Casual Dining,Chai Tow Kway,23.35,Breakfast,22.0
+Food,Fast Food,Chai Tow Kway,10.62,Breakfast,10.0
+Food,Fast Food,Chai Tow Kway,7.54,Breakfast,34.0
+Food,Fast Food,Char Kway Teow,16.62,Main Course,33.0
+Food,Food Court,Chee Cheong Fun,9.42,Dim Sum,56.0
+Food,Fine Dining,Chee Cheong Fun,26.65,Dim Sum,8.0
+Food,Casual Dining,Chee Cheong Fun,17.6,Dim Sum,33.0
+Food,Casual Dining,Chettinad Chicken,40.01,Main Course,13.0
+Food,Casual Dining,Chettinad Chicken,20.83,Main Course,63.0
+Food,Casual Dining,Chettinad Chicken,27.95,Main Course,20.0
+Food,Fast Food,Chicken 65,13.74,Main Course,11.0
+Food,Casual Dining,Chicken 65,23.57,Main Course,31.0
+Food,Casual Dining,Chicken 65,28.57,Main Course,15.0
+Food,Fine Dining,Chicken 65,25.56,Main Course,6.0
+Food,Food Court,Chicken Alfredo,21.98,Pasta,36.0
+Food,Food Court,Chicken Rendang,18.3,Main Course,100.0
+Food,Street Food,Cincalok Omelette,6.16,Main Course,44.0
+Food,Street Food,Cincalok Omelette,8.41,Main Course,73.0
+Food,Street Food,Cincalok Omelette,7.36,Main Course,97.0
+Food,Fast Food,Cincalok Omelette,6.45,Main Course,9.0
+Food,Fast Food,Claypot Lou Shu Fun,23.28,Noodles,11.0
+Food,Food Court,Claypot Lou Shu Fun,11.51,Noodles,55.0
+Food,Fine Dining,Claypot Lou Shu Fun,40.89,Noodles,3.0
+Food,Street Food,Claypot Lou Shu Fun,9.13,Noodles,28.0
+Food,Fine Dining,Claypot Lou Shu Fun,34.5,Noodles,9.0
+Food,Street Food,Claypot Lou Shu Fun,10.94,Noodles,67.0
+Food,Fast Food,Cucur Udang,6.88,Snacks,9.0
+Food,Fine Dining,Cucur Udang,24.27,Snacks,4.0
+Food,Casual Dining,Cucur Udang,7.74,Snacks,6.0
+Food,Fine Dining,Cucur Udang,15.41,Snacks,4.0
+Food,Fast Food,Cucur Udang,7.23,Snacks,11.0
+Food,Street Food,Cucur Udang,4.21,Snacks,46.0
+Food,Fast Food,Cucur Udang,7.67,Snacks,8.0
+Food,Fast Food,Cucur Udang,6.57,Snacks,6.0
+Food,Street Food,Dodol,7.77,Desserts,44.0
+Food,Food Court,Dodol,10.4,Desserts,42.0
+Food,Fine Dining,Dodol,23.97,Desserts,4.0
+Food,Fine Dining,Dodol,15.44,Desserts,6.0
+Food,Food Court,Dodol,7.97,Desserts,17.0
+Food,Food Court,Dodol,5.52,Desserts,10.0
+Food,Fine Dining,Dodol,19.36,Desserts,6.0
+Food,Casual Dining,Durian Cendol,14.59,Desserts,32.0
+Food,Food Court,Durian Cendol,17.22,Desserts,26.0
+Food,Fine Dining,Durian Cendol,31.86,Desserts,4.0
+Food,Casual Dining,Durian Cendol,21.13,Desserts,12.0
+Food,Fine Dining,Durian Cendol,30.74,Desserts,6.0
+Food,Food Court,Egg Tart,14.69,Dim Sum,44.0
+Food,Street Food,Fish Head Curry Tamil,17.24,Main Course,68.0
+Food,Street Food,Fish Head Curry Tamil,23.06,Main Course,100.0
+Food,Casual Dining,Fish Head Curry Tamil,33.02,Main Course,12.0
+Food,Fast Food,Fish Head Curry Tamil,22.14,Main Course,26.0
+Food,Fast Food,Fish Head Curry Tamil,30.21,Main Course,46.0
+Food,Fine Dining,Fish Head Curry Tamil,92.52,Main Course,6.0
+Food,Street Food,Fish Head Curry Tamil,13.4,Main Course,58.0
+Food,Casual Dining,Fish Maw Soup,25.93,Soups,10.0
+Food,Casual Dining,Fish Maw Soup,65.32,Soups,16.0
+Food,Street Food,Fish Maw Soup,23.22,Soups,63.0
+Food,Food Court,Fish Maw Soup,28.53,Soups,72.0
+Food,Street Food,Fish Maw Soup,26.14,Soups,69.0
+Food,Fine Dining,Fish Maw Soup,77.12,Soups,3.0
+Food,Fine Dining,Fish Maw Soup,69.79,Soups,5.0
+Food,Street Food,Grass Jelly Drink,3.89,Drinks,67.0
+Food,Street Food,Grass Jelly Drink,6.57,Drinks,100.0
+Food,Street Food,Grass Jelly Drink,5.13,Drinks,25.0
+Food,Street Food,Grass Jelly Drink,3.41,Drinks,88.0
+Food,Food Court,Grass Jelly Drink,4.44,Drinks,29.0
+Food,Fine Dining,Grass Jelly Drink,19.55,Drinks,8.0
+Food,Street Food,Grass Jelly Drink,2.71,Drinks,38.0
+Food,Casual Dining,Gulai Ikan Patin,17.47,Main Course,12.0
+Food,Casual Dining,Gulai Ikan Patin,15.16,Main Course,7.0
+Food,Fine Dining,Gulai Ikan Patin,49.18,Main Course,10.0
+Food,Fine Dining,Gulai Ikan Patin,59.07,Main Course,9.0
+Food,Street Food,Gulai Ikan Patin,9.01,Main Course,79.0
+Food,Street Food,Gulai Ikan Patin,7.71,Main Course,67.0
+Food,Street Food,Gulai Ikan Patin,12.59,Main Course,79.0
+Food,Street Food,Gulai Ikan Patin,10.04,Main Course,82.0
+Food,Casual Dining,Gulai Kawah,30.18,Main Course,15.0
+Food,Fast Food,Gulai Kawah,15.82,Main Course,18.0
+Food,Street Food,Gulai Kawah,9.01,Main Course,100.0
+Food,Fast Food,Gulai Kawah,20.03,Main Course,48.0
+Food,Food Court,Gulai Kawah,8.37,Main Course,55.0
+Food,Fast Food,Gulai Kawah,12.27,Main Course,9.0
+Food,Casual Dining,Gulai Nangka Muda,23.67,Main Course,13.0
+Food,Fast Food,Gulai Nangka Muda,10.67,Main Course,36.0
+Food,Fast Food,Gulai Nangka Muda,11.91,Main Course,13.0
+Food,Food Court,Gulai Tempoyak Ikan,12.73,Main Course,12.0
+Food,Street Food,Gulai Tempoyak Ikan,9.08,Main Course,66.0
+Food,Casual Dining,Gulai Tempoyak Ikan,28.81,Main Course,21.0
+Food,Fine Dining,Gulai Tempoyak Ikan,28.19,Main Course,4.0
+Food,Fine Dining,Gulai Tempoyak Ikan,30.48,Main Course,5.0
+Food,Food Court,Gulai Tempoyak Ikan,13.3,Main Course,24.0
+Food,Casual Dining,Hainanese Chicken Chop,21.45,Main Course,64.0
+Food,Street Food,Hainanese Chicken Chop,16.89,Main Course,41.0
+Food,Fast Food,Hainanese Chicken Chop,16.97,Main Course,18.0
+Food,Casual Dining,Hakka Thunder Tea Rice,26.55,Rice & Noodles,17.0
+Food,Street Food,Hakka Thunder Tea Rice,6.04,Rice & Noodles,40.0
+Food,Casual Dining,Hakka Thunder Tea Rice,20.54,Rice & Noodles,8.0
+Food,Street Food,Hakka Thunder Tea Rice,11.22,Rice & Noodles,21.0
+Food,Street Food,Hakka Thunder Tea Rice,6.57,Rice & Noodles,100.0
+Food,Casual Dining,Hinava,46.9,Main Course,26.0
+Food,Casual Dining,Hinava,46.22,Main Course,15.0
+Food,Fine Dining,Hinava,54.58,Main Course,10.0
+Food,Fine Dining,Hinava,41.7,Main Course,11.0
+Food,Street Food,Hinava,19.13,Main Course,60.0
+Food,Fine Dining,Hinava,38.95,Main Course,3.0
+Food,Street Food,Hinava,8.64,Main Course,100.0
+Food,Fast Food,Hinava,26.31,Main Course,52.0
+Food,Fast Food,Idli Sambar,16.43,Breakfast,16.0
+Food,Street Food,Idli Sambar,5.4,Breakfast,17.0
+Food,Food Court,Idli Sambar,5.7,Breakfast,9.0
+Food,Casual Dining,Idli Sambar,16.5,Breakfast,15.0
+Food,Food Court,Idli Sambar,6.89,Breakfast,39.0
+Food,Fast Food,Idli Sambar,10.85,Breakfast,12.0
+Food,Food Court,Ikan Bakar Sambal,11.73,Main Course,51.0
+Food,Fine Dining,Ikan Bakar Sambal,23.96,Main Course,3.0
+Food,Fine Dining,Ikan Bakar Sambal,57.13,Main Course,4.0
+Food,Fast Food,Ikan Bakar Sambal,19.95,Main Course,24.0
+Food,Fast Food,Ikan Bakar Sambal,19.82,Main Course,16.0
+Food,Fine Dining,Ikan Bakar Sambal,39.25,Main Course,10.0
+Food,Casual Dining,Ikan Bakar Sambal,34.02,Main Course,12.0
+Food,Fine Dining,Ikan Pekasam,26.84,Main Course,9.0
+Food,Casual Dining,Ikan Pekasam,10.44,Main Course,20.0
+Food,Street Food,Ikan Pekasam,6.3,Main Course,55.0
+Food,Street Food,Keropok Keping,2.2,Snacks,70.0
+Food,Fine Dining,Keropok Keping,13.45,Snacks,3.0
+Food,Fine Dining,Keropok Keping,12.29,Snacks,4.0
+Food,Casual Dining,Keropok Keping,9.58,Snacks,8.0
+Food,Casual Dining,Keropok Keping,5.32,Snacks,42.0
+Food,Fine Dining,Keropok Keping,11.33,Snacks,4.0
+Food,Casual Dining,Keropok Keping,7.27,Snacks,5.0
+Food,Street Food,Keropok Lekor,5.3,Snacks,52.0
+Food,Casual Dining,Keropok Lekor,7.94,Snacks,13.0
+Food,Fast Food,Keropok Lekor,7.37,Snacks,11.0
+Food,Casual Dining,Keropok Lekor,7.96,Snacks,11.0
+Food,Street Food,Keropok Lekor,5.98,Snacks,46.0
+Food,Fine Dining,Keropok Lekor,13.84,Snacks,6.0
+Food,Street Food,Keropok Lekor,4.37,Snacks,61.0
+Food,Food Court,Keropok Lekor,6.13,Snacks,14.0
+Food,Fast Food,Ketupat Palas,7.31,Rice & Noodles,13.0
+Food,Fine Dining,Ketupat Palas,9.41,Rice & Noodles,3.0
+Food,Fine Dining,Ketupat Palas,22.38,Rice & Noodles,6.0
+Food,Fast Food,Ketupat Palas,10.46,Rice & Noodles,39.0
+Food,Street Food,Ketupat Palas,2.86,Rice & Noodles,62.0
+Food,Street Food,Ketupat Palas,2.93,Rice & Noodles,60.0
+Food,Fast Food,Kolo Mee,11.36,Noodles,5.0
+Food,Food Court,Kolo Mee,7.93,Noodles,52.0
+Food,Food Court,Kolo Mee,12.25,Noodles,35.0
+Food,Fast Food,Kolo Mee,16.89,Noodles,8.0
+Food,Casual Dining,Kolo Mee,18.94,Noodles,12.0
+Food,Street Food,Kolo Mee,8.67,Noodles,100.0
+Food,Fast Food,Kolo Mee,12.68,Noodles,32.0
+Food,Food Court,Kopi Tarik,3.7,Drinks,53.0
+Food,Fine Dining,Kopi Tarik,14.25,Drinks,5.0
+Food,Street Food,Kopi Tarik,2.64,Drinks,36.0
+Food,Fast Food,Kopi Tarik,3.17,Drinks,15.0
+Food,Street Food,Kuih Bahulu,3.69,Desserts,27.0
+Food,Casual Dining,Kuih Bahulu,6.22,Desserts,22.0
+Food,Fine Dining,Kuih Bahulu,21.96,Desserts,3.0
+Food,Casual Dining,Kuih Bahulu,6.72,Desserts,8.0
+Food,Street Food,Kuih Dadar,4.82,Desserts,24.0
+Food,Casual Dining,Kuih Dadar,6.82,Desserts,11.0
+Food,Casual Dining,Kuih Dadar,15.54,Desserts,13.0
+Food,Fast Food,Kuih Dadar,7.72,Desserts,20.0
+Food,Fine Dining,Kuih Dadar,13.15,Desserts,5.0
+Food,Fast Food,Kuih Dadar,8.33,Desserts,26.0
+Food,Fast Food,Kuih Dadar,5.62,Desserts,54.0
+Food,Food Court,Kuih Lapis Nyonya,5.88,Desserts,10.0
+Food,Street Food,Kuih Lapis Nyonya,4.42,Desserts,100.0
+Food,Casual Dining,Kuih Lapis Nyonya,10.78,Desserts,13.0
+Food,Fast Food,Kuih Lapis Nyonya,8.59,Desserts,33.0
+Food,Street Food,Kuih Lapis Nyonya,3.51,Desserts,25.0
+Food,Fine Dining,Kuih Lapis Nyonya,23.33,Desserts,4.0
+Food,Food Court,Kuih Pie Tee,11.47,Snacks,64.0
+Food,Fine Dining,Kuih Pie Tee,41.53,Snacks,9.0
+Food,Fine Dining,Kuih Pie Tee,16.85,Snacks,5.0
+Food,Fine Dining,Kuih Pie Tee,35.13,Snacks,14.0
+Food,Fast Food,Kuih Pie Tee,16.2,Snacks,17.0
+Food,Casual Dining,Kuih Pie Tee,24.68,Snacks,31.0
+Food,Fine Dining,Kuih Pie Tee,30.17,Snacks,5.0
+Food,Food Court,Kuih Seri Muka,7.98,Desserts,23.0
+Food,Food Court,Kuih Seri Muka,4.76,Desserts,22.0
+Food,Casual Dining,Kuih Seri Muka,14.03,Desserts,4.0
+Food,Fast Food,Kuih Seri Muka,10.76,Desserts,29.0
+Food,Fine Dining,Kuih Seri Muka,23.51,Desserts,5.0
+Food,Fast Food,Lamb Chop,28.14,Main Course,100.0
+Food,Food Court,Lemang,7.81,Rice & Noodles,34.0
+Food,Street Food,Lemang,3.65,Rice & Noodles,57.0
+Food,Fast Food,Lemang,7.85,Rice & Noodles,11.0
+Food,Fine Dining,Lemang,21.87,Rice & Noodles,5.0
+Food,Fine Dining,Lemang,25.05,Rice & Noodles,11.0
+Food,Casual Dining,Lemang,10.94,Rice & Noodles,8.0
+Food,Fine Dining,Lemang,27.06,Rice & Noodles,6.0
+Food,Fine Dining,Lemang,26.82,Rice & Noodles,7.0
+Food,Fast Food,Lempeng,10.15,Breakfast,21.0
+Food,Fast Food,Limau Ais,3.62,Drinks,10.0
+Food,Street Food,Limau Ais,4.13,Drinks,83.0
+Food,Casual Dining,Limau Ais,8.7,Drinks,21.0
+Food,Street Food,Limau Ais,1.93,Drinks,57.0
+Food,Casual Dining,Limau Ais,7.3,Drinks,23.0
+Food,Street Food,Limau Ais,1.78,Drinks,24.0
+Food,Fine Dining,Longan Drink,14.79,Drinks,9.0
+Food,Fast Food,Longan Drink,5.33,Drinks,13.0
+Food,Casual Dining,Longan Drink,9.03,Drinks,10.0
+Food,Street Food,Longan Drink,5.01,Drinks,57.0
+Food,Fine Dining,Longan Drink,13.92,Drinks,3.0
+Food,Food Court,Lor Bak,9.04,Main Course,29.0
+Food,Fine Dining,Lor Bak,33.6,Main Course,4.0
+Food,Fast Food,Lor Bak,18.62,Main Course,22.0
+Food,Casual Dining,Lor Bak,28.92,Main Course,23.0
+Food,Casual Dining,Lor Bak,25.77,Main Course,13.0
+Food,Food Court,Lor Bak,11.25,Main Course,28.0
+Food,Food Court,Lor Bak,10.53,Main Course,46.0
+Food,Casual Dining,Manok Pansoh,29.4,Main Course,9.0
+Food,Street Food,Manok Pansoh,19.86,Main Course,100.0
+Food,Fast Food,Manok Pansoh,30.18,Main Course,12.0
+Food,Casual Dining,Manok Pansoh,29.5,Main Course,16.0
+Food,Fine Dining,Manok Pansoh,57.52,Main Course,4.0
+Food,Fast Food,Manok Pansoh,19.39,Main Course,15.0
+Food,Fine Dining,Masala Dosa,20.46,Breakfast,3.0
+Food,Fine Dining,Masala Dosa,29.02,Breakfast,5.0
+Food,Fast Food,Masala Dosa,18.98,Breakfast,31.0
+Food,Street Food,Masala Dosa,10.3,Breakfast,38.0
+Food,Fast Food,Masala Dosa,12.22,Breakfast,14.0
+Food,Fast Food,Masala Dosa,8.76,Breakfast,41.0
+Food,Street Food,Masala Dosa,9.47,Breakfast,58.0
+Food,Food Court,Masala Dosa,8.63,Breakfast,28.0
+Food,Fast Food,Mee Bandung,17.73,Rice & Noodles,19.0
+Food,Street Food,Midin Belacan,11.59,Main Course,95.0
+Food,Fine Dining,Midin Belacan,35.61,Main Course,10.0
+Food,Fast Food,Midin Belacan,18.84,Main Course,9.0
+Food,Casual Dining,Midin Belacan,14.13,Main Course,9.0
+Food,Street Food,Midin Belacan,12.39,Main Course,100.0
+Food,Street Food,Midin Belacan,9.46,Main Course,100.0
+Food,Food Court,Milo Dinosaur,5.24,Drinks,70.0
+Food,Casual Dining,Milo Dinosaur,8.81,Drinks,11.0
+Food,Fine Dining,Milo Dinosaur,19.82,Drinks,4.0
+Food,Casual Dining,Milo Dinosaur,5.98,Drinks,11.0
+Food,Fine Dining,Mushroom Soup Western,20.0,Soups,8.0
