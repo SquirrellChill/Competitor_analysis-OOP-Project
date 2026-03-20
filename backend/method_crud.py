@@ -363,7 +363,7 @@ class MethodCrud:
         try:
             cleaned = str(value).replace("₹", "").replace(",", "").strip()
             return round(float(cleaned) * exchange_rate, 2)
-        except:
+        except (ValueError, TypeError):
             return value
 
     def _handle_currency_conversion(self, df):
@@ -458,7 +458,13 @@ class MethodCrud:
 
             # Step 3: Trim rows
             row_input = input(f"\n  How many rows to keep? (file has {len(new_data)} rows): ").strip()
-            row_limit = int(row_input)
+            
+            try:
+                row_limit = int(row_input)
+            except ValueError:
+                print("  Invalid number. Using all rows.")
+                row_limit = len(new_data)
+                
             new_data = new_data[selected_cols].head(row_limit).copy()
 
             # Step 4: Optional metadata
