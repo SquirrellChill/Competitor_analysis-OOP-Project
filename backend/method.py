@@ -32,7 +32,7 @@ class Method:
         industry_col = self._get_col(df, 'industry', 'source')
         if(not industry_col):
             print("  No industry column found in dataset.")
-            return None
+            return None, None
 
         industries = (
             df[industry_col]
