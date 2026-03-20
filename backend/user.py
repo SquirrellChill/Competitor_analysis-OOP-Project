@@ -16,7 +16,7 @@ class User:
             choice = input("  Choose option: ").strip()
 
             if(choice == "1"):
-                self.crud._select_industry()         
+                self.crud._browse_products()         
             elif(choice == "2"):
                 self.methods._compare_products()      
             elif(choice == "3"):
