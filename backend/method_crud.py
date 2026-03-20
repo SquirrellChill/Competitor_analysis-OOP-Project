@@ -154,8 +154,48 @@ class MethodCrud:
             final_df       = brand_df.copy()
             category_label = "All"
 
-        # ── Step 4: Display sorted by rating with pagination ──────────────────────
-        self._view_products_paged(final_df, industry_name, brand_name, category_label)
+        # ── Step 4: Pick Type (from product_name) ────────────────────────────────
+        if('product_name' in final_df.columns):
+            types = (
+                final_df['product_name']
+                .dropna().astype(str).str.strip()
+                .unique().tolist()
+            )
+            types.sort()
+
+            print("\n" + "═"*38)
+            print(f"  {category_label.upper()} — SELECT TYPE")
+            print("═"*38)
+            for i, t in enumerate(types, 1):
+                count = len(final_df[final_df['product_name'].str.strip() == t])
+                print(f"  [{i}] {t:<20}  ({count} products)")
+            print(f"  [{len(types)+1}] Show All")
+            print("  [0] Back")
+            print("─"*38)
+
+            try:
+                choice = int(input("\n  Choose number: ").strip())
+                if(choice == 0):
+                    return
+                elif(choice == len(types) + 1):
+                    type_df    = final_df.copy()
+                    type_label = "All"
+                elif(1 <= choice <= len(types)):
+                    type_name  = types[choice - 1]
+                    type_df    = final_df[final_df['product_name'].str.strip() == type_name].copy()
+                    type_label = type_name
+                else:
+                    print("  Invalid selection.")
+                    return
+            except ValueError:
+                print("  Please enter a valid number.")
+                return
+        else:
+            type_df    = final_df.copy()
+            type_label = "All"
+
+        # ── Step 5: Display sorted by rating with pagination ──────────────────────
+        self._view_products_paged(type_df, industry_name, brand_name, f"{category_label} › {type_label}")
 
     def _view_products_paged(self, df, industry_name, brand_name, category_label):
         """Displays products sorted by rating, 50 per page. Columns: brand_name, price, rating."""
@@ -167,7 +207,7 @@ class MethodCrud:
         if(rating_col in sorted_df.columns):
             sorted_df = sorted_df.sort_values(by=rating_col, ascending=False).reset_index(drop=True)
 
-        cols_to_show = [c for c in [brand_col, price_col, rating_col] if c in sorted_df.columns]
+        cols_to_show = [c for c in ["product_name", brand_col, price_col, rating_col] if c in sorted_df.columns]
         total     = len(sorted_df)
         PAGE_SIZE = 50
         page      = 0
@@ -200,10 +240,27 @@ class MethodCrud:
             elif(nav == "P" and page > 0):
                 page -= 1
             elif(nav == "A" and total > PAGE_SIZE):
+                # group by product_name then sort by rating within each group
+                if('product_name' in sorted_df.columns):
+                    grouped_df = sorted_df.sort_values(
+                        by=['product_name', 'rating'],
+                        ascending=[True, False]
+                    )
+                else:
+                    grouped_df = sorted_df
+
                 print("\n" + "═"*45)
-                print(f"  ALL {total} products — {industry_name} › {brand_name} › {category_label}  (sorted by rating ↓)")
+                print(f"  ALL {total} products — {industry_name} › {brand_name} › {category_label}")
+                print(f"  (grouped by type, sorted by rating ↓)")
                 print("═"*45)
-                print(sorted_df[cols_to_show].to_string(index=False))
+
+                if('product_name' in grouped_df.columns):
+                    for ptype, group in grouped_df.groupby('product_name', sort=True):
+                        print(f"\n  ── {ptype} ({len(group)}) ──")
+                        print(group[cols_to_show].to_string(index=False))
+                else:
+                    print(grouped_df[cols_to_show].to_string(index=False))
+
                 print("─"*45)
                 input("\n  Press Enter to return.........")
                 break
