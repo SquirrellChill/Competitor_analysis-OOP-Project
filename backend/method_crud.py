@@ -464,7 +464,7 @@ class MethodCrud:
             except ValueError:
                 print("  Invalid number. Using all rows.")
                 row_limit = len(new_data)
-                
+
             new_data = new_data[selected_cols].head(row_limit).copy()
 
             # Step 4: Optional metadata
@@ -498,22 +498,33 @@ class MethodCrud:
         name = input("  Enter the Product Name to update: ").strip()
 
         if(name in self._df['product_name'].values):
+            matches = self._df[self._df['product_name'] == name]
+
+            if(len(matches) > 1):
+                print(f"\n  Found {len(matches)} products with this name:")
+                print(matches[['product_name', 'brand_name', 'price_usd', 'rating']].to_string(index=True))
+                try:
+                    idx = int(input("\n  Enter the index number to update: ").strip())
+                    if(idx not in matches.index):
+                        print("  Invalid index.")
+                        return
+                except ValueError:
+                    print("  Please enter a valid number.")
+                    return
+            else:
+                idx = matches.index[0]
+
             print(f"  Updating details for: {name}")
             new_price  = input("  New Price (leave blank to keep current): ").strip()
             new_rating = input("  New Rating (leave blank to keep current): ").strip()
 
-            idx = self._df[self._df['product_name'] == name].index[0]
-
             if(new_price):
                 self._df.at[idx, 'price_usd'] = float(new_price)
-
             if(new_rating):
                 self._df.at[idx, 'rating'] = float(new_rating)
 
             self._save_competitors()
             print(f"  Product '{name}' updated successfully.")
-        else:
-            print("  Product not found.")
 
     # ── Delete competitor ─────────────────────────────────────────────────────────
 
