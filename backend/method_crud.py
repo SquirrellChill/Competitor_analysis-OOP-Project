@@ -522,21 +522,3 @@ class MethodCrud:
             print(f"  Product '{name_to_delete}' has been removed successfully.")
         else:
             print(f"  Product '{name_to_delete}' not found in the list.")
-
-    # ── View competitors ──────────────────────────────────────────────────────────
-
-    def view_competitors(self):
-        """Displays current competitor list in the terminal."""
-        print("\n── Current Competitor List ──")
-
-        if(self._df.empty):
-            print("  The list is currently empty.")
-        else:
-            cols_to_show = [c for c in ['product_name', 'industry', 'brand_name', 'price_usd', 'rating'] if c in self._df.columns]
-            print(self._df[cols_to_show].head(15).to_string(index=False))
-
-            total_count = len(self._df)
-            if(total_count > 15):
-                print(f"\n  ...... and {total_count - 15} more products.")
-
-        input("\n  Press Enter to return.........")

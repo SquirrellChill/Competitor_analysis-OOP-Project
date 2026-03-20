@@ -24,16 +24,12 @@ class Admin:
                 self.analytics_manager._df = self.competitor_manager._df
             elif(choice == "3"):
                 self.competitor_manager.delete_competitor()
-                self.analytics_manager._df = self.competitor_manager._df
+                self.analytics_manager._df = self.competitor_manager._df            
             elif(choice == "4"):
-                self._organize_data()             
+                self.competitor_manager._browse_products() 
             elif(choice == "5"):
-                self.competitor_manager._select_industry() 
-            elif(choice == "6"):
-                self.competitor_manager.view_competitors()
-            elif(choice == "7"):
                 self.analytics_manager.analytics()  
-            elif(choice == "8"):
+            elif(choice == "6"):
                 print("\n  Admin logged out.")
                 break
             else:

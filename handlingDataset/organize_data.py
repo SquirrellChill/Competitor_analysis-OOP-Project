@@ -88,40 +88,6 @@ def handle_currency_conversion(df):
     print(f"Converted '{col_name}' → '{col_name}_usd' at rate {exchange_rate}")
     return df
 
-
-def import_and_organize():
-    """Reads all CSVs in the dataset folder and merges them into all_industries_organized.csv."""
-    all_dfs = []
-
-    for filename in os.listdir(DATASET_DIR):
-        if(not filename.endswith(".csv") or filename == "all_industries_organized.csv" or filename == "competitors_combined.csv"):
-            continue
-
-        path = os.path.join(DATASET_DIR, filename)
-        try:
-            df = pd.read_csv(path)
-            source_name = filename.replace(".csv", "")
-            df["source"] = source_name
-
-            # normalise column names to lowercase + strip spaces
-            df.columns = [c.strip().lower().replace(" ", "_") for c in df.columns]
-
-            all_dfs.append(df)
-            print(f"  Loaded: {filename} ({len(df)} rows)")
-        except Exception as e:
-            print(f"  Skipped {filename}: {e}")
-
-    if(not all_dfs):
-        print("  No CSV files found to organize.")
-        return
-
-    combined = pd.concat(all_dfs, ignore_index=True)
-    out_path = os.path.join(DATASET_DIR, "all_industries_organized.csv")
-    combined.to_csv(out_path, index=False)
-    print(f"\n  Organized dataset saved → {out_path}")
-    print(f"  Total rows: {len(combined)}")
-
-
 def main():
     print("=" * 40)
     print("    CSV Column Selector & Row Trimmer")
