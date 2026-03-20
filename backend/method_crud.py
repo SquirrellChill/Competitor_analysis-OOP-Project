@@ -33,7 +33,7 @@ class MethodCrud:
 
     # ── Industry / Product view ───────────────────────────────────────────────────
 
-    def _select_industry(self):
+    def _browse_products(self):
         """Industry → Brand → Category → Products sorted by rating (50 at a time)."""
         if(not os.path.exists(DATASET_PATH)):
             print("  Error: Organized dataset not found. Please run Organize Data first.")
@@ -59,7 +59,7 @@ class MethodCrud:
         for i, ind in enumerate(industries, 1):
             count = len(df[df['industry'] == ind])
             print(f"  [{i}] {ind:<20}  ({count} products)")
-        print(f"  [0] Back")
+        print("  [0] Back")
         print("─"*38)
 
         try:
@@ -89,13 +89,13 @@ class MethodCrud:
         )
         brands.sort()
 
-        print(f"\n" + "═"*38)
+        print("\n" + "═"*38)
         print(f"  {industry_name.upper()} — SELECT BRAND")
         print("═"*38)
         for i, b in enumerate(brands, 1):
             count = len(industry_df[industry_df[brand_col].str.strip() == b])
             print(f"  [{i}] {b:<20}  ({count} products)")
-        print(f"  [0] Back")
+        print("  [0] Back")
         print("─"*38)
 
         try:
@@ -123,14 +123,14 @@ class MethodCrud:
             )
             categories.sort()
 
-            print(f"\n" + "═"*38)
+            print("\n" + "═"*38)
             print(f"  {brand_name.upper()} — SELECT CATEGORY")
             print("═"*38)
             for i, cat in enumerate(categories, 1):
                 count = len(brand_df[brand_df[cat_col].str.strip() == cat])
                 print(f"  [{i}] {cat:<20}  ({count} products)")
             print(f"  [{len(categories)+1}] All Categories")
-            print(f"  [0] Back")
+            print("  [0] Back")
             print("─"*38)
 
             try:
@@ -138,11 +138,11 @@ class MethodCrud:
                 if(choice == 0):
                     return
                 elif(choice == len(categories) + 1):
-                    final_df = brand_df.copy()
+                    final_df       = brand_df.copy()
                     category_label = "All Categories"
                 elif(1 <= choice <= len(categories)):
-                    cat_name = categories[choice - 1]
-                    final_df = brand_df[brand_df[cat_col].str.strip() == cat_name].copy()
+                    cat_name       = categories[choice - 1]
+                    final_df       = brand_df[brand_df[cat_col].str.strip() == cat_name].copy()
                     category_label = cat_name
                 else:
                     print("  Invalid selection.")
@@ -151,22 +151,23 @@ class MethodCrud:
                 print("  Please enter a valid number.")
                 return
         else:
-            final_df = brand_df.copy()
+            final_df       = brand_df.copy()
             category_label = "All"
 
         # ── Step 4: Display sorted by rating with pagination ──────────────────────
         self._view_products_paged(final_df, industry_name, brand_name, category_label)
 
     def _view_products_paged(self, df, industry_name, brand_name, category_label):
-        """Displays products sorted by rating, 50 per page, with show-all option."""
-        price_col  = 'price_usd' if 'price_usd' in df.columns else 'price'
-        rating_col = 'rating'    if 'rating'    in df.columns else 'user_rating'
+        """Displays products sorted by rating, 50 per page. Columns: brand_name, price, rating."""
+        price_col  = 'price_usd'  if 'price_usd'  in df.columns else 'price'
+        rating_col = 'rating'     if 'rating'     in df.columns else 'user_rating'
+        brand_col  = 'brand_name' if 'brand_name' in df.columns else 'brand'
 
         sorted_df = df.copy()
         if(rating_col in sorted_df.columns):
             sorted_df = sorted_df.sort_values(by=rating_col, ascending=False).reset_index(drop=True)
 
-        cols_to_show = [c for c in ['product_name', 'brand_name', price_col, rating_col, 'category'] if c in sorted_df.columns]
+        cols_to_show = [c for c in [brand_col, price_col, rating_col] if c in sorted_df.columns]
         total     = len(sorted_df)
         PAGE_SIZE = 50
         page      = 0
@@ -175,12 +176,12 @@ class MethodCrud:
             start = page * PAGE_SIZE
             end   = min(start + PAGE_SIZE, total)
 
-            print("\n" + "═"*60)
+            print("\n" + "═"*45)
             print(f"  {industry_name.upper()} › {brand_name} › {category_label}")
             print(f"  Showing {start+1}–{end} of {total} products  (sorted by rating ↓)")
-            print("═"*60)
+            print("═"*45)
             print(sorted_df[cols_to_show].iloc[start:end].to_string(index=False))
-            print("─"*60)
+            print("─"*45)
 
             options = []
             if(end < total):
@@ -199,11 +200,11 @@ class MethodCrud:
             elif(nav == "P" and page > 0):
                 page -= 1
             elif(nav == "A" and total > PAGE_SIZE):
-                print("\n" + "═"*60)
+                print("\n" + "═"*45)
                 print(f"  ALL {total} products — {industry_name} › {brand_name} › {category_label}  (sorted by rating ↓)")
-                print("═"*60)
+                print("═"*45)
                 print(sorted_df[cols_to_show].to_string(index=False))
-                print("─"*60)
+                print("─"*45)
                 input("\n  Press Enter to return.........")
                 break
             elif(nav == "B"):
