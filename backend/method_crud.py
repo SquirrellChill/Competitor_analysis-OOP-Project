@@ -57,7 +57,7 @@ class MethodCrud:
         print("         SELECT INDUSTRY")
         print("═"*38)
         for i, ind in enumerate(industries, 1):
-            count = len(df[df['industry'].str.strip() == ind])
+            count = len(df[df['industry'] == ind])
             print(f"  [{i}] {ind:<20}  ({count} products)")
         print("  [0] Back")
         print("─"*38)
@@ -154,8 +154,54 @@ class MethodCrud:
             final_df       = brand_df.copy()
             category_label = "All"
 
-        # ── Step 4: Display products sorted by rating with pagination ─────────────
-        self._view_products_paged(final_df, industry_name, brand_name, category_label)
+        # ── Step 4: Pick Type (from product_name) ────────────────────────────────
+        if('product_name' in final_df.columns):
+            types = (
+                final_df['product_name']
+                .dropna().astype(str).str.strip()
+                .unique().tolist()
+            )
+            types.sort()
+
+            # If most products have unique names (e.g. skincare), skip type selection
+            # and go straight to showing all products
+            if(len(types) >= len(final_df) * 0.8):
+                type_df    = final_df.copy()
+                type_label = "All"
+            else:
+                print("\n" + "═"*38)
+                print(f"  {category_label.upper()} — SELECT TYPE")
+                print("═"*38)
+                for i, t in enumerate(types, 1):
+                    count = len(final_df[final_df['product_name'].str.strip() == t])
+                    print(f"  [{i}] {t:<20}  ({count} products)")
+                print(f"  [{len(types)+1}] Show All")
+                print("  [0] Back")
+                print("─"*38)
+
+                try:
+                    choice = int(input("\n  Choose number: ").strip())
+                    if(choice == 0):
+                        return
+                    elif(choice == len(types) + 1):
+                        type_df    = final_df.copy()
+                        type_label = "All"
+                    elif(1 <= choice <= len(types)):
+                        type_name  = types[choice - 1]
+                        type_df    = final_df[final_df['product_name'].str.strip() == type_name].copy()
+                        type_label = type_name
+                    else:
+                        print("  Invalid selection.")
+                        return
+                except ValueError:
+                    print("  Please enter a valid number.")
+                    return
+        else:
+            type_df    = final_df.copy()
+            type_label = "All"
+
+        # ── Step 5: Display sorted by rating with pagination ──────────────────────
+        self._view_products_paged(type_df, industry_name, brand_name, f"{category_label} › {type_label}")
 
     def _view_products_paged(self, df, industry_name, brand_name, category_label):
         """Displays products sorted by rating, 50 per page. Columns: type, brand, price, rating."""
@@ -174,9 +220,13 @@ class MethodCrud:
             if('category' in sorted_df.columns):
                 sort_cols.append('category')
                 sort_asc.append(True)
+            # Only group by product_name if it's a type grouping (e.g. Shoes/Dress)
+            # Skip if most products have unique names (e.g. skincare full product names)
             if('product_name' in sorted_df.columns):
-                sort_cols.append('product_name')
-                sort_asc.append(True)
+                unique_ratio = sorted_df['product_name'].nunique() / len(sorted_df)
+                if(unique_ratio < 0.8):
+                    sort_cols.append('product_name')
+                    sort_asc.append(True)
             sort_cols.append(rating_col)
             sort_asc.append(False)
             sorted_df = sorted_df.sort_values(by=sort_cols, ascending=sort_asc).reset_index(drop=True)
@@ -323,7 +373,7 @@ class MethodCrud:
         try:
             cleaned = str(value).replace("₹", "").replace(",", "").strip()
             return round(float(cleaned) * exchange_rate, 2)
-        except (ValueError, TypeError):
+        except:
             return value
 
     def _handle_currency_conversion(self, df):
@@ -418,13 +468,7 @@ class MethodCrud:
 
             # Step 3: Trim rows
             row_input = input(f"\n  How many rows to keep? (file has {len(new_data)} rows): ").strip()
-            
-            try:
-                row_limit = int(row_input)
-            except ValueError:
-                print("  Invalid number. Using all rows.")
-                row_limit = len(new_data)
-
+            row_limit = int(row_input)
             new_data = new_data[selected_cols].head(row_limit).copy()
 
             # Step 4: Optional metadata
@@ -458,33 +502,22 @@ class MethodCrud:
         name = input("  Enter the Product Name to update: ").strip()
 
         if(name in self._df['product_name'].values):
-            matches = self._df[self._df['product_name'] == name]
-
-            if(len(matches) > 1):
-                print(f"\n  Found {len(matches)} products with this name:")
-                print(matches[['product_name', 'brand_name', 'price_usd', 'rating']].to_string(index=True))
-                try:
-                    idx = int(input("\n  Enter the index number to update: ").strip())
-                    if(idx not in matches.index):
-                        print("  Invalid index.")
-                        return
-                except ValueError:
-                    print("  Please enter a valid number.")
-                    return
-            else:
-                idx = matches.index[0]
-
             print(f"  Updating details for: {name}")
             new_price  = input("  New Price (leave blank to keep current): ").strip()
             new_rating = input("  New Rating (leave blank to keep current): ").strip()
 
+            idx = self._df[self._df['product_name'] == name].index[0]
+
             if(new_price):
                 self._df.at[idx, 'price_usd'] = float(new_price)
+
             if(new_rating):
                 self._df.at[idx, 'rating'] = float(new_rating)
 
             self._save_competitors()
             print(f"  Product '{name}' updated successfully.")
+        else:
+            print("  Product not found.")
 
     # ── Delete competitor ─────────────────────────────────────────────────────────
 
