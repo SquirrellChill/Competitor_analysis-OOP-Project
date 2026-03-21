@@ -57,7 +57,7 @@ class MethodCrud:
         print("         SELECT INDUSTRY")
         print("═"*38)
         for i, ind in enumerate(industries, 1):
-            count = len(df[df['industry'] == ind])
+            count = len(df[df['industry'].str.strip() == ind])
             print(f"  [{i}] {ind:<20}  ({count} products)")
         print("  [0] Back")
         print("─"*38)
@@ -154,48 +154,8 @@ class MethodCrud:
             final_df       = brand_df.copy()
             category_label = "All"
 
-        # ── Step 4: Pick Type (from product_name) ────────────────────────────────
-        if('product_name' in final_df.columns):
-            types = (
-                final_df['product_name']
-                .dropna().astype(str).str.strip()
-                .unique().tolist()
-            )
-            types.sort()
-
-            print("\n" + "═"*38)
-            print(f"  {category_label.upper()} — SELECT TYPE")
-            print("═"*38)
-            for i, t in enumerate(types, 1):
-                count = len(final_df[final_df['product_name'].str.strip() == t])
-                print(f"  [{i}] {t:<20}  ({count} products)")
-            print(f"  [{len(types)+1}] Show All")
-            print("  [0] Back")
-            print("─"*38)
-
-            try:
-                choice = int(input("\n  Choose number: ").strip())
-                if(choice == 0):
-                    return
-                elif(choice == len(types) + 1):
-                    type_df    = final_df.copy()
-                    type_label = "All"
-                elif(1 <= choice <= len(types)):
-                    type_name  = types[choice - 1]
-                    type_df    = final_df[final_df['product_name'].str.strip() == type_name].copy()
-                    type_label = type_name
-                else:
-                    print("  Invalid selection.")
-                    return
-            except ValueError:
-                print("  Please enter a valid number.")
-                return
-        else:
-            type_df    = final_df.copy()
-            type_label = "All"
-
-        # ── Step 5: Display sorted by rating with pagination ──────────────────────
-        self._view_products_paged(type_df, industry_name, brand_name, f"{category_label} › {type_label}")
+        # ── Step 4: Display products sorted by rating with pagination ─────────────
+        self._view_products_paged(final_df, industry_name, brand_name, category_label)
 
     def _view_products_paged(self, df, industry_name, brand_name, category_label):
         """Displays products sorted by rating, 50 per page. Columns: type, brand, price, rating."""
